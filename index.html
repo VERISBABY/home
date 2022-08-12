@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERISBABY'S WORLD</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="jquery-ui/jquery-ui.js" defer></script>
+  </head>
+
+<header>
+<h1><a href="index.html">VERISBABY</a></h1>
+        <nav class="header-nav">
+          <ul>
+              <li><a href="https://www.instagram.com/zodiacusthenhan/" target="blank">ZODIACUS THENHAN ONLINE STORE.</a></li>
+              <li><a href="myuniverse.html">MY UNIVERSE.</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <body>
+        <section class="about">
+<div>
+        <h2 class="contact-title">ABOUT ME.</h2>
+        <p>I started my career as a self-taught full-stack Software Engineer after leaving school at the end of my first year of software engineering at University. I always want to n  passion for learning new things, improve and enhance my skills as well as develop and research machine learning, AI technologies.
+        </p>
+
+        <ul id="req">My Project:
+          <li><a href="myuniverse.html" target="blank">mY UNIVERSE SOFTWARE.</a></li>
+          <li><a href="https://www.fiverr.com/verisbaby/made-a-pc-software-that-auto-generates-blog-content-text" target="blank">aUTO GENERATE TEXTS.</a></li>
+          <li><a href="https://github.com/VERISBABY" target="blank">oPEN SOURCE ON GITHUB.</a></li>
+        </ul>
+      </div>
+      <div class="about-slide">
+        <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" src="image/g.jpg" width="320" height="420" alt="verisbaby">
+
+</div>
+</section>
+<div id="dialog" title="pERSONAL BUSINESS INQUIRIES">
+  <p><a href="mailto:verisbabythenhan@gmail.com">gMAIL: verisbabythenhan@gmail.com</a></p>
+</div>
+      </body>
+<footer>
+<!-- <nav class="time">
+  <body onload='display_ct()'>
+    <ul>
+      <li><p id='time'></p></li>
+      <li><a href="faq.html">q&A.</a></li>
+      <li><a href="https://www.linkedin.com/in/verisbaby/" target="_blank">cONNECT.</a></li>
+    </ul>
+  </body>
+</nav> -->
+<nav class="footer-nav">
+        <ul>
+          <body onload='display_ct()'>
+            <ul>
+              <li><p id='time'></p></li>
+            </ul>
+          </body>
+          <li><a href="faq.html">q&A.</a></li>
+          <li id="dialog-link" class="ui-corner-all ui-widget">cONNECT.</li>
+          <li>|</li>
+          <li><a href="https://www.instagram.com/verisbabythenhan/" target="_blank">mY INSTAGRAM</a></li>
+          <li><a href="https://www.linkedin.com/in/verisbaby/" target="_blank">mY LINKEDIN</a></li>
+          <li><a href="https://www.youtube.com/c/VERISBABY" target="_blank">mY YOUTUBE</a></li>
+        </ul>
+        <h3 class="foot">VERISBABY.2022&copy</h3>
+</nav>
+</footer>
+<script src="jquery.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+  <script> 
+        function display_c(){
+        var refresh=1000; // Refresh rate in milli seconds
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        
+        function display_ct() {
+        var x = new Date()
+        document.getElementById('time').innerHTML = x;
+        display_c();
+         }
+
+         $( "#dialog" ).dialog({
+	autoOpen: false,
+	width: 400,
+	buttons: [
+		{
+			text: "Close",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		}
+	]
+});
+
+// Link to open the dialog
+$( "#dialog-link" ).click(function( event ) {
+	$( "#dialog" ).dialog( "open" );
+	event.preventDefault();
+});
+$( "#dialog-link, .ui-corner-all" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
+        </script>
+</html>
