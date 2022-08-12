@@ -321,15 +321,7 @@ form button span:nth-child(4) {
     mask-position: 100% 0;
   }
 }
-div #veris{
-  font-family:'Courier';
-  font-size: 12px;
-}
-#veri+#veris2{
-  font-family:'Courier';
-  font-size: 16px;
-  font-weight: bold;
-}
+
 /* CHỮ CHẠY NGANG */
 .loop-holder {
   display: flex;
