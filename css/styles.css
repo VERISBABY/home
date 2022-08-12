@@ -6,7 +6,7 @@ html {
 }
 p{
   font-family: Courier;
-  font-size: 18px;
+  font-size: 13px;
 }
 #req{
   font-family: Courier;
@@ -45,17 +45,6 @@ nav a:hover {
   color: #8B0000;
   text-decoration: underline #DAA520 wavy;
 }
-footer * {
-  display: inline;
-  color: black;
-  margin: 2px;
-  margin-top: 8px;
-}
-.footer-nav {
-  font-size: 13px;
-  font-weight: bold;
-  float: right;
-}
 #dialog-link {
   padding: .4em 1em .4em 20px;
   text-decoration: none;
@@ -75,13 +64,19 @@ footer * {
   float: left;
 }
 h1 {
-  font-family: Canterbury;
+  font-family: 'Canterbury';
 }
 h2 {
   font-family: 'Heavy Rain';
 }
 .about-slide img {
   float: right;
+}
+.about-slide-vid {
+  float: right;
+}
+video{
+    float: right;
 }
 /* Trang Liên Hệ*/
 form {
@@ -95,6 +90,9 @@ textarea{
   padding: 4px;
   resize: none;
   background-color: #FFC0CB;
+}
+iframe{
+  height:auto;
 }
 input{
   width: 100%;
@@ -185,12 +183,6 @@ form button span:nth-child(3) {
 form button span:nth-child(4) {
     --n: 4;
 }
-/* 2 NÚT MYUNIVER */
-#wrap {
-  display: inline; 
-  text-align: center; 
-  z-index: 10;
-  }
 
 .btn-slide { 
     position: relative;
@@ -315,7 +307,15 @@ form button span:nth-child(4) {
     mask-position: 100% 0;
   }
 }
-
+div #veris{
+  font-family:'Courier';
+  font-size: 12px;
+}
+#veri+#veris2{
+  font-family:'Courier';
+  font-size: 16px;
+  font-weight: bold;
+}
 /* CHỮ CHẠY NGANG */
 .loop-holder {
   display: flex;
@@ -430,6 +430,20 @@ font-family: Barcode, monospace;
     font-size: 10px;
     float: left;
   }
+  footer * {
+    display: block;
+    color: black;
+    margin-top: 8px;
+    margin-left:0px;
+  }
+  .footer-nav {
+    font-size: 13px;
+    font-weight: bold;
+    float: center;
+  }
+  #gach{
+    position:relative;
+  }
   .about {
     font-size: 11px;
   }
@@ -437,7 +451,35 @@ font-family: Barcode, monospace;
     font-style: 100px;
     font-weight: bold;
   }
+  li{
+    font-size:12px;
+  }
+  .header-nav{
+    display: block;
+    font-size: 16px;
+    position: absolute;
 }
+  .button-container{
+    display: block;
+    position: center;
+    margin-top: 0px;
+    margin-left:36px;
+    width: 220px;
+    height: 34px;
+  }
+  .mask {
+    margin-top: 7px;}
+  .btn-slide { 
+    display: block;
+    position: center;
+    margin-left: 36px;
+    margin-bottom: 10px;
+    height: 34px;
+    width: 220px;
+    line-height: 40px;
+        }
+}
+
 @media screen and (min-width:820px){
   .about {
     display: grid;
@@ -447,9 +489,30 @@ font-family: Barcode, monospace;
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-  .about-slide-vid {
-  float: right;
-}
+  iframe{
+    height:480px;
+  }
+  p{
+    font-family: Courier;
+    font-size: 18px;
+  }
+  /* 2 NÚT MYUNIVER */
+#wrap {
+  display: inline; 
+  text-align: center; 
+  z-index: 10;
+  }
+  footer * {
+    display: inline;
+    color: black;
+    margin: 2px;
+    margin-top: 8px;
+  }
+  .footer-nav {
+    font-size: 13px;
+    font-weight: bold;
+    float: right;
+  }
 }
 /*Nút chọn trang LIÊN HỆ*/
 
