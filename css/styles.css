@@ -83,12 +83,6 @@ h2 {
 .about-slide img {
   float: right;
 }
-.about-slide-vid {
-  float: right;
-}
-video{
-    float: right;
-}
 /* Trang Liên Hệ*/
 form {
   display: block;
@@ -453,6 +447,9 @@ font-family: Barcode, monospace;
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
+  .about-slide-vid {
+  float: right;
+}
 }
 /*Nút chọn trang LIÊN HỆ*/
 
