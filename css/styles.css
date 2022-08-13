@@ -428,7 +428,7 @@ font-family: Barcode, monospace;
     float: left;
   }
   iframe{
-    height:315;
+    height:220;
     width:100%;
   }
   footer * {
@@ -447,7 +447,7 @@ font-family: Barcode, monospace;
     margin-left:0px;
   }
   p{
-    font-size: 13px;
+    font-size: 14px;
   }
   .contact-title {
     margin-top:10px;
@@ -465,17 +465,15 @@ font-family: Barcode, monospace;
     font-weight: bold;
   }
   li{
-    font-size:12px;
+    font-size:13px;
   }
   .header-nav{
     display: block;
     font-size: 16px;
-    position: absolute;
 }
 .loop-holder {
   display: flex;
   white-space: nowrap;
-  overflow: visible;
   position:absolute;
 }
 .loop-holder__text {
