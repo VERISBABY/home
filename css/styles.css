@@ -436,7 +436,7 @@ font-family: Barcode, monospace;
   }
   .loop-holder{
 display: flex;
-margin-top: 188px;
+margin-top: 190px;
   }
   footer * {
     display: block;
@@ -465,7 +465,7 @@ margin-top: 188px;
   iframe{
     align-items: center;
     width: 382px;
-    height: 250px;
+    height: 220px;
   }
   .header-nav{
     display: block;
