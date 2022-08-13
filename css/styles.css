@@ -428,7 +428,8 @@ font-family: Barcode, monospace;
     float: left;
   }
   iframe{
-    width:100%;
+    width:auto;
+    height:auto;
   }
   footer * {
     display: block;
