@@ -465,7 +465,7 @@ margin-top: 180px;
   iframe{
     align-items: center;
     width: 382px;
-    height: 260;
+    height: 300;
   }
   .header-nav{
     display: block;
@@ -476,7 +476,7 @@ margin-top: 180px;
     display: block;
     position: center;
     margin-top: 0px;
-    margin-left:80px;
+    margin-left:84px;
     width: 220px;
     height: 34px;
   }
@@ -486,7 +486,7 @@ margin-top: 180px;
   .btn-slide { 
     display: block;
     position: center;
-    margin-left: 80px;
+    margin-left: 84px;
     margin-bottom: 10px;
     height: 34px;
     width: 220px;
