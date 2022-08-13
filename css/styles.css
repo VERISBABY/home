@@ -436,11 +436,11 @@ font-family: Barcode, monospace;
   }
     p{
     font-family: Courier;
-    font-size: 13px;
+    font-size: 14px;
   }
   .loop-holder{
 display: flex;
-margin-top: 226px;
+margin-top: 224px;
   }
   footer * {
     display: block;
