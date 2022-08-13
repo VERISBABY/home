@@ -428,7 +428,6 @@ font-family: Barcode, monospace;
     float: left;
   }
   iframe{
-    height:220;
     width:100%;
   }
   footer * {
@@ -477,14 +476,14 @@ font-family: Barcode, monospace;
   position:absolute;
 }
 .loop-holder__text {
-  margin-top: 150px;
-  font-size: 13px;
+  margin-top: 280px;
+  font-size: 16px;
 }
   .button-container{
     display: block;
     position: center;
     margin-top: 0px;
-    margin-left:56px;
+    margin-left:66px;
     width: 220px;
     height: 34px;
   }
@@ -493,7 +492,7 @@ font-family: Barcode, monospace;
   .btn-slide { 
     display: block;
     position: center;
-    margin-left: 56px;
+    margin-left: 66px;
     margin-bottom: 10px;
     height: 34px;
     width: 220px;
@@ -535,7 +534,3 @@ font-family: Barcode, monospace;
     float: right;
   }
 }
-/*Nút chọn trang LIÊN HỆ*/
-
-      
-  
