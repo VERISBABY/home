@@ -14,7 +14,7 @@ p{
   font-weight: bold;
 }
 *, *:before, *:after {
-box-sizing: inherit;
+box-sizing: border-box;
 }
 @font-face {
   font-family: "Canterbury";
@@ -430,6 +430,13 @@ font-family: Barcode, monospace;
     font-size: 10px;
     float: left;
   }
+  .contact-title{
+    position: relative;
+  }
+  .loop-holder{
+display: flex;
+margin-top: 180px;
+  }
   footer * {
     display: block;
     color: black;
@@ -452,7 +459,12 @@ font-family: Barcode, monospace;
     font-weight: bold;
   }
   li{
-    font-size:12px;
+    font-size:13px;
+  }
+  iframe{
+    align-items: center;
+    width: 382px;
+    height: 240;
   }
   .header-nav{
     display: block;
@@ -463,16 +475,17 @@ font-family: Barcode, monospace;
     display: block;
     position: center;
     margin-top: 0px;
-    margin-left:36px;
+    margin-left:80px;
     width: 220px;
     height: 34px;
   }
+
   .mask {
     margin-top: 7px;}
   .btn-slide { 
     display: block;
     position: center;
-    margin-left: 36px;
+    margin-left: 80px;
     margin-bottom: 10px;
     height: 34px;
     width: 220px;
