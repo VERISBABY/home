@@ -432,6 +432,7 @@ font-family: Barcode, monospace;
   }
   .contact-title{
     position: relative;
+    padding-top:6px;
   }
   .loop-holder{
 display: flex;
