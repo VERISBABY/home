@@ -434,6 +434,10 @@ font-family: Barcode, monospace;
     position: relative;
     padding-top:8px;
   }
+    p{
+    font-family: Courier;
+    font-size: 13px;
+  }
   .loop-holder{
 display: flex;
 margin-top: 190px;
@@ -465,7 +469,7 @@ margin-top: 190px;
   iframe{
     align-items: center;
     width: 382px;
-    height: 220px;
+    height: 200px;
   }
   .header-nav{
     display: block;
