@@ -138,9 +138,19 @@ Date of last revision: 13/7/2022</p>
 			}
 		}
 	]
-})
-	  
-	 		          $( "#dialogg" ).dialog({
+});
+        function display_c(){
+        var refresh=1000; // Refresh rate in milli seconds
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        
+        function display_ct() {
+        var x = new Date()
+        document.getElementById('time').innerHTML = x;
+        display_c();
+         }
+
+         $( "#dialogg" ).dialog({
 	autoOpen: false,
 	width: 400,
 	buttons: [
@@ -150,8 +160,8 @@ Date of last revision: 13/7/2022</p>
 				$( this ).dialog( "close" );
 			}
 		}
-	]});
-
+	]
+});
 // Link to open the dialog
 $( "#dialog-link" ).click(function( event ) {
 	$( "#dialog" ).dialog( "open" );
