@@ -103,7 +103,7 @@ Date of last revision: 13/7/2022</p>
 <nav class="footer-nav">
         <ul>
 	  <li id="dialog-link" class="ui-corner-all ui-widget">cONNECT.</li>
-	  <li id="dialog-linkk" class="ui-corner-alll ui-widget">pRIVACY POLICY.</li>
+	  <li id="dia" class="ui-corner-alll ui-widget">pRIVACY POLICY.</li>
 	  <li>-</li>
           <li><body onload='display_ct()'><p id='time'></p></body></li>
           <li><a href="faq.html">q&A.</a></li>
@@ -144,12 +144,6 @@ Date of last revision: 13/7/2022</p>
         var refresh=1000; // Refresh rate in milli seconds
         mytime=setTimeout('display_ct()',refresh)
         }
-        
-        function display_ct() {
-        var x = new Date()
-        document.getElementById('time').innerHTML = x;
-        display_c();
-         }
 
          $( "#privacy" ).dialog({
 	autoOpen: false,
@@ -176,11 +170,12 @@ $( "#dialog-link, .ui-corner-all" ).hover(
 		$( this ).removeClass( "ui-state-hover" );
 	}
 );
-$( "#dialog-linkk" ).click(function( event ) {
+// 	  
+$( "#dia" ).click(function( event ) {
 	$( "#privacy" ).dialog( "open" );
 	event.preventDefault();
 });
-$( "#dialog-linkk, .ui-corner-alll" ).hover(
+$( "#dia, .ui-corner-alll" ).hover(
 	function() {
 		$( this ).addClass( "ui-state-hover" );
 	},
