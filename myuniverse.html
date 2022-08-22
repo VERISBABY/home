@@ -138,6 +138,17 @@ Date of last revision: 13/7/2022</p>
 			}
 		}
 	]
+		          $( "#dialogg" ).dialog({
+	autoOpen: false,
+	width: 400,
+	buttons: [
+		{
+			text: "Close",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		}
+	]
 });
 
 // Link to open the dialog
