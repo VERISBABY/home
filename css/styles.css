@@ -46,26 +46,26 @@ nav a:hover {
   text-decoration: underline #DAA520 wavy;
 }
 #dialog-link {
-  padding: .4em 1em .4em 20px;
+  padding: 4px;
   text-decoration: none;
   position: relative;
 }
 #dialog-link span {
   margin: 0;
   position: absolute;
-  left: .2em;
+  left: 2px;
   top: 50%;
   margin-top: -8px;
 }
-#dialog-linkk {
-  padding: .4em 1em .4em 20px;
+#dia {
+  padding: 4px;
   text-decoration: none;
   position: relative;
 }
-#dialog-linkk span {
+#dia span {
   margin: 0 0px 0 0;
   position: absolute;
-  left: .2em;
+  left: 2px;
   top: 50%;
   margin-top: -8px;
 }
