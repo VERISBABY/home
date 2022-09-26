@@ -29,18 +29,13 @@
 	<p><code>Latest version: 1.1.1</code></p>
 	</p>
         <div id="wrap">
-          <a class="btn-slide" href="https://mega.nz/file/j3wEwYxQ#rS1H-bnTbAJxJEE7LFAE9IV7EjkKPy46EChReH7FZeo" target="blank">
+          <a id="dia" class="ui-corner-alll ui-widget">
               <span class="circle">
                 <i class="fa-solid fa-face-grin-hearts"></i>        
               </span>
-              <span class="title">dOWNLOAD</span>
-              <span class="title title-hover">fREE VERSION</span>
+              <span class="title">cONTACT</span>
+              <span class="title title-hover">rEQUEST</span>
           </a>      
-
-          <a class="button-container" href="https://verisbaby.gumroad.com/l/myuniverse?_gl=1*7jqz8w*_ga*MTg0NTMxNTk5Ni4xNjU1NDA2MDAx*_ga_6LJN6D94N6*MTY2MDA1Njg0OC44LjEuMTY2MDA1Njg1MS4w">
-              <span class="mask">gET BOSS BAG</span>
-              <button type="button" name="Hover">fULL VERSION</button>
-          </a>
             </div>
             
             <div>
@@ -67,6 +62,10 @@
 </div>
 <div id="dialog" title="pERSONAL BUSINESS INQUIRIES">
   <p><a href="mailto:verisbabythenhan@gmail.com">gMAIL: verisbabythenhan@gmail.com</a></p>
+</div>
+<div id="dialog2" title="cONTACT MY UNIVERSE ">
+  <p><a href="https://www.instagram.com/myuniverse_pc/">iNSTAGRAM: @myuniverse_pc</a></p>
+<p><a href="mailto:myuniverse.contactspace@gmail.com">gMAIL: verisbabythenhan@gmail.com</a></p>
 </div>
 	      
 	      <div id="privacy" title="mY UNIVERSE PRIVACY POLICY">
@@ -150,6 +149,19 @@ Date of last revision: 13/7/2022</p>
 		}
 	]
 });
+         $( "#dialog2" ).dialog({
+	autoOpen: false,
+	width: 400,
+	buttons: [
+		{
+			text: "Close",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		}
+	]
+});	  
+// 	  
         function display_c(){
         var refresh=1000; // Refresh rate in milli seconds
         mytime=setTimeout('display_ct()',refresh)
@@ -186,6 +198,19 @@ $( "#dia" ).click(function( event ) {
 	event.preventDefault();
 });
 $( "#dia, .ui-corner-alll" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
+// 
+$( "#diaa" ).click(function( event ) {
+	$( "#dialog2" ).dialog( "open" );
+	event.preventDefault();
+});
+$( "#diaa, .ui-corner-alll" ).hover(
 	function() {
 		$( this ).addClass( "ui-state-hover" );
 	},
