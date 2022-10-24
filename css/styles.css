@@ -550,7 +550,7 @@ margin-top: 224px;
   }
   iframe{
     align-items: center;
-    width: 390px;
+    width: 100%;
     height: 200px;
   }
   .header-nav{
