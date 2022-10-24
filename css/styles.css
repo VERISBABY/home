@@ -80,11 +80,11 @@ nav a:hover {
   float: left;
 }
 h1 {
-  font-family: "Canterbury", "Press Start 2P", Times;
+  font-family: "Canterbury", Times;
   font-size: 14px;
 }
 h2 {
-  font-family: 'Heavy Rain';
+  font-family: 'Heavy Rain', "Press Start 2P";
 }
 .about-slide img {
   float: right;
@@ -546,7 +546,7 @@ margin-top: 224px;
   }
   iframe{
     align-items: center;
-    width: 392px;
+    width: 388px;
     height: 200px;
   }
   .header-nav{
