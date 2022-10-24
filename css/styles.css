@@ -80,10 +80,10 @@ nav a:hover {
   float: left;
 }
 h1 {
-  font-family: "Canterbury","Island Moments", Times;
+  font-family: "Canterbury","Island Moments";
 }
 h2 {
-  font-family: 'Heavy Rain', "Press Start 2P";
+  font-family: 'Heavy Rain', "Press Start 2P", Times;
 }
 .about-slide img {
   float: right;
