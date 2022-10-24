@@ -501,10 +501,10 @@ ul .header-nav {
       position:relative;
       }
 h1 {
-  font-size: 12px;
+  font-size: 20px;
 }
   h2 {
-  font-size: 8px;
+  font-size: 7px;
 }
   .footer-nav {
     font-size: 10px;
@@ -550,7 +550,7 @@ margin-top: 224px;
   }
   iframe{
     align-items: center;
-    width: 388px;
+    width: 389px;
     height: 200px;
   }
   .header-nav{
