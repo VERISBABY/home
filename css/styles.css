@@ -80,7 +80,7 @@ nav a:hover {
   float: left;
 }
 h1 {
-  font-family: 'Canterbury','Press Start 2P';
+  font-family: 'Canterbury', 'Press Start 2P', 'Times New Roman';
 }
 h2 {
   font-family: 'Heavy Rain';
@@ -491,7 +491,7 @@ div #veris{
 .foot {
 font-weight: normal;
 font-size: 12px;
-font-family: Barcode, monospace;
+font-family: 'Barcode', monospace;
 }
 /* Đáp ứng Điện thoại*/
 @media screen and (max-width:750px){
