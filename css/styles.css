@@ -80,7 +80,7 @@ nav a:hover {
   float: left;
 }
 h1 {
-  font-family: "Canterbury", Times;
+  font-family: "Canterbury","Island Moments", Times;
 }
 h2 {
   font-family: 'Heavy Rain', "Press Start 2P";
@@ -502,6 +502,9 @@ ul .header-nav {
       }
 h1 {
   font-size: 12px;
+}
+  h2 {
+  font-size: 11px;
 }
   .footer-nav {
     font-size: 10px;
