@@ -81,7 +81,6 @@ nav a:hover {
 }
 h1 {
   font-family: "Canterbury", Times;
-  font-size: 14px;
 }
 h2 {
   font-family: 'Heavy Rain', "Press Start 2P";
@@ -501,7 +500,9 @@ ul .header-nav {
       float:right;
       position:relative;
       }
-
+h1 {
+  font-size: 12px;
+}
   .footer-nav {
     font-size: 10px;
     float: left;
