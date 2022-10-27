@@ -51,7 +51,7 @@ nav a:hover {
 }
 #dialog-link {
   padding: 4px;
-  text-decoration: none;
+/*   text-decoration: none; */
   position: relative;
 }
 #dialog-link span{
@@ -518,7 +518,9 @@ h1 {
     font-family: Courier;
     font-size: 14px;
   }
-
+#dialog-link {
+    font-size: 16px;
+}
   .loop-holder{
 display: flex;
 margin-top: 224px;
