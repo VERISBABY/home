@@ -49,6 +49,11 @@ nav a:hover {
   color: #8B0000;
   text-decoration: underline #DAA520 wavy;
 }
+button.data-container{
+	  padding: 4px;
+	background: 'black';
+color:'white';
+}
 #dialog-link {
   padding: 4px;
 /*   text-decoration: none; */
@@ -62,8 +67,6 @@ nav a:hover {
 }
 #dialog-linki span{
   margin: 0;
-background: 'black';
-color:'white';
   position: absolute;
   left: 4px;
   top: 50%;
