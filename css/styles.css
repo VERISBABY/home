@@ -54,10 +54,13 @@ nav a:hover {
 /*   text-decoration: none; */
   position: relative;
 }
-#dialog-linki {
-  padding: 4px;
+div.data-container{
+	  padding: 4px;
 background: 'black';
 color:'white';
+}
+#dialog-linki {
+  padding: 4px;
 /*   text-decoration: none; */
   position: relative;
 }
