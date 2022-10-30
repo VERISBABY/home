@@ -54,6 +54,20 @@ nav a:hover {
 /*   text-decoration: none; */
   position: relative;
 }
+#dialog-linki {
+  padding: 4px;
+background: 'black';
+color:'white';
+/*   text-decoration: none; */
+  position: relative;
+}
+#dialog-linki span{
+  margin: 0;
+  position: absolute;
+  left: 4px;
+  top: 50%;
+	margin-top: -8px;}
+
 #dialog-link span{
   margin: 0;
   position: absolute;
