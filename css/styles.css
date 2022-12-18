@@ -266,7 +266,8 @@ form button span:nth-child(4) {
     font-size: 17px;
     font-weight: bold;
     font-family: "Courier";
-    color: rgb(7, 4, 4);
+/*     color: rgb(7, 4, 4); */
+    color: 'grey';
     transition: all 1.5s linear; 
  }
         
