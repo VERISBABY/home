@@ -8,8 +8,9 @@ p{
   font-family: Courier;
   font-size: 13px;
 }
-.myp h3{
- font-family: Times;
+
+h3 .myp{
+font-family: Times;
 font-size: 18px;
 }
 
