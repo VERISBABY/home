@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "heroku": "^7.62.0",
+    "heroku": "^8.0.1",
     "typeit": "^8.7.0"
   }
 }
