@@ -613,8 +613,9 @@ margin-top: 224px;
   }
 /* video	 */
 	.about-slide-vid{
+		display: block;
 	padding:10px;
-			    align-items: center;
+align-items: center;
 
   justify-content: center;
 /*   height: 100%; */
@@ -624,7 +625,7 @@ margin-top: 224px;
 	    align-items: center;
   top: 0;
   left: 0;
-  width: 200%;
+  width: 170%;
   height: 100%;
 /*     width: 391px; */
 /*     height: 200px; */
