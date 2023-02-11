@@ -41,10 +41,34 @@ header * {
     color: black;
     display: inline;
 }
-.header-nav {
+/* .header-nav {
     font-size: 18px;
     float: right;
-}
+} */
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    float: right;
+  }
+  
+  .header-nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav-list a {
+    display: block;
+    padding: 10px 15px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
 #til1{
   float: right;
 }
@@ -630,11 +654,17 @@ margin-top: 10px;
   height: 100%;
   }
 	
-  .header-nav{
+/*   .header-nav{
     display: block;
     font-size: 16px;
     position: absolute;
-}
+} */
+    .header-nav-list {
+      display: none;
+    }
+    .icon {
+      display: block;
+    }
   .button-container{
     display: block;
     position: center;
