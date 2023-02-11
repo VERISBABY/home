@@ -614,12 +614,15 @@ margin-top: 224px;
 /* video	 */
 	.about-slide-vid{
 	padding:10px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 	}
   .about-slide-vid iframe{
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 200%;
   height: 100%;
 /*     width: 391px; */
 /*     height: 200px; */
@@ -644,10 +647,11 @@ margin-top: 224px;
     margin-top: 0px;
     margin-left:84px;
     width: 220px;
-    height: 34px;
+    height: 36px;
   }
   .mask {
     margin-top: 7px;}
+	
   .btn-slide { 
     display: block;
     position: center;
@@ -663,7 +667,7 @@ margin-top: 224px;
     position: center;
     margin-left: 84px;
     margin-bottom: 10px;
-    height: 34px;
+    height: 36px;
     width: 220px;
     line-height: 40px;
         }
