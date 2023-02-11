@@ -614,7 +614,7 @@ margin-top: 224px;
 /* video	 */
 	.about-slide-vid{
 	padding:10px;
-/*   justify-content: center; */
+  justify-content: center;
 /*   height: 100%; */
 	}
   .about-slide-vid iframe{
@@ -622,7 +622,7 @@ margin-top: 224px;
 	    align-items: center;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 150%;
   height: 100%;
 /*     width: 391px; */
 /*     height: 200px; */
