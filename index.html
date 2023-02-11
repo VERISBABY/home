@@ -15,14 +15,28 @@
   </head>
 
 <header>
-<h1><a href="index.html">VERISBABY</a></h1>
-        <nav class="header-nav">
-          <ul>
-              <li><a href="zodiacusthenhan.html" target="blank">ZODIACUS THENHAN.</a></li>
-              <li><a href="myuniverse.html">MY UNIVERSE.</a></li>
-          </ul>
-        </nav>
-      </header>
+  <h1><a href="index.html">VERISBABY</a></h1>
+  <nav class="header-nav">
+    <ul class="header-nav-list">
+      <li><a href="zodiacusthenhan.html" target="blank">ZODIACUS THENHAN.</a></li>
+      <li><a href="myuniverse.html">MY UNIVERSE.</a></li>
+    </ul>
+    <a href="javascript:void(0);" class="icon" onclick="headerNavFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+</header>
+
+<script>
+  function headerNavFunction() {
+    var x = document.getElementsByClassName("header-nav-list")[0];
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
 
       <body>
         <section class="about">
