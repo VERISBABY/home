@@ -613,11 +613,13 @@ margin-top: 224px;
   }
 /* video	 */
 	.about-slide-vid{
+padding: 10px;
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
 	}
+	
   .about-slide-vid iframe{
   position: absolute;
   top: 0;
