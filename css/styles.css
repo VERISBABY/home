@@ -553,7 +553,8 @@ font-weight: normal;
 font-size: 12px;
 font-family: 'Barcode', monospace;
 }
-/* Đáp ứng Điện thoại*/
+
+/* Đáp ứng Mã Cho Điện thoại*/
 @media screen and (max-width:750px){
 ul .header-nav {
       font-size: 14px;
@@ -612,7 +613,7 @@ margin-top: 224px;
   }
   iframe{
     align-items: center;
-    width: 391px;
+/*     width: 391px; */
     height: 200px;
   }
   .header-nav{
@@ -628,7 +629,14 @@ margin-top: 224px;
     width: 220px;
     height: 34px;
   }
-
+  .button-container2{
+    display: block;
+    position: center;
+    margin-top: 0px;
+    margin-left:84px;
+    width: 220px;
+    height: 34px;
+  }
   .mask {
     margin-top: 7px;}
   .btn-slide { 
@@ -640,8 +648,19 @@ margin-top: 224px;
     width: 220px;
     line-height: 40px;
         }
+  .btn-slidezt { 
+    display: block;
+	  align: center;
+    position: center;
+    margin-left: 84px;
+    margin-bottom: 10px;
+    height: 34px;
+    width: 220px;
+    line-height: 40px;
+        }
 }
 
+/*  */
 @media screen and (min-width:820px){
   .about {
     display: grid;
