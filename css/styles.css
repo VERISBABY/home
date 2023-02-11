@@ -619,7 +619,7 @@ margin-top: 224px;
 /*   height: 100%; */
 	}
   .about-slide-vid iframe{
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
