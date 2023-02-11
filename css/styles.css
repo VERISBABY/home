@@ -71,10 +71,10 @@ header * {
   
   .dropdown-content {
     display: none;
+	color: yellow;
     position: absolute;
     background-color: #000000;
-	    left: -20px;
-	color: yellow;
+left: -30px;
     min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 10;
