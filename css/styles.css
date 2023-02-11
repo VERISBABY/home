@@ -614,12 +614,12 @@ margin-top: 224px;
 /* video	 */
 	.about-slide-vid{
 	padding:10px;
-  align-items: center;
-  justify-content: center;
+/*   justify-content: center; */
 /*   height: 100%; */
 	}
   .about-slide-vid iframe{
-  position: relative;
+/*   position: relative; */
+	    align-items: center;
   top: 0;
   left: 0;
   width: 100%;
