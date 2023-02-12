@@ -68,7 +68,11 @@ header * {
     display: block;
     padding: 10px 15px;
   }
-  
+    .icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
   .dropdown {
     position: relative;
     display: inline-block;
@@ -89,12 +93,7 @@ left: -50px;
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
-  .icon {
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
-  }
+
 #til1{
   float: right;
 }
