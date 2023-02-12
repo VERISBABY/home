@@ -18,11 +18,10 @@ document.getElementById("year") = year +  "&copyVERISBABY "+" | " + time;
     }
   }
   
-const projectsLink = document.querySelector('.header-nav .dropdown a');
-const plusMinusIcon = projectsLink.querySelector('.plus-minus');
-
-projectsLink.addEventListener('click', function(event) {
-  event.preventDefault();
-  plusMinusIcon.classList.toggle('fa-plus');
-  plusMinusIcon.classList.toggle('fa-minus');
+document.querySelector(".dropdown a").addEventListener("click", function() {
+  const faDown = this.querySelector(".fa-hand-o-down");
+  const faRight = this.querySelector(".fa-hand-o-right");
+  faDown.classList.toggle("show");
+  faRight.classList.toggle("hide");
 });
+
