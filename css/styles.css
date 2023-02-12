@@ -613,21 +613,29 @@ h1 {
  h2 {
   font-size: 2px;
 }
-	
-.footer-nav{
+
+/*  */
+  footer * {
+    display: block;
+    color: black;
+    margin-top: 8px;
+    margin-left:0px;
+  }
+.footer-nav *{
 	  display: block;
 	}
 	
   .footer-nav ul{
     position:relative;
     font-size: 11px;
-	  margin: 10px;
 	  font-weight: bold;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between;  }
+	  
+.footer-nav li{
+	margin: 10px;}
 
-  }
   .contact-title{
     position: relative;
     padding-top:8px;
@@ -642,12 +650,6 @@ h1 {
   .loop-holder{
 display: flex;
 margin-top: 224px;
-  }
-  footer * {
-    display: block;
-    color: black;
-    margin-top: 8px;
-    margin-left:0px;
   }
 
   #gach{
