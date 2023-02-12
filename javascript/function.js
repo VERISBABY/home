@@ -5,9 +5,10 @@
 
 // DROPDOWN
 function headerNavFunction() {
-  const headerNavDropdown = document.getElementById("headerNavDropdown");
-  headerNavDropdown.classList.toggle("show");
+  const headerNav = document.querySelector(".header-nav");
+  headerNav.classList.toggle("show");
 }
+
 
 //
 const dropdownToggle = document.getElementById("dropdown-toggle");
