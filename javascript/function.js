@@ -5,7 +5,7 @@
 
 // DROPDOWN
 function headerNavFunction() {
-  var x = document.getElementsByClassName("header-nav-list")[0];
+  var x = document.getElementsByClassName("header-nav-list");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
