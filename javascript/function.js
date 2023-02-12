@@ -4,10 +4,11 @@
   
 
 // DROPDOWN
-function headerNavFunction() {
-  const headerNav = document.querySelector(".header-nav");
+const iconbar = document.getElementById(".icon");
+ const headerNav = document.querySelector(".header-nav");
+iconbar.addEventListener("click", headerNavFunction() {
   headerNav.classList.toggle("show");
-}
+};
 
 
 //
