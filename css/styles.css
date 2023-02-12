@@ -637,6 +637,8 @@ margin-top: 224px;
     margin-left:0px;
   }
   .footer-nav {
+  display: flex;
+  flex-direction: row;
     font-size: 13px;
     font-weight: bold;
     float: center;
