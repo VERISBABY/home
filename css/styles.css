@@ -617,12 +617,14 @@ h1 {
 /*  */
   footer * {
     display: block;
+  align-items: center;
     color: black;
     margin-top: 8px;
     margin-left:0px;
   }
 .footer-nav *{
 	  display: block;
+  align-items: center;
 	}
 	
   .footer-nav ul{
