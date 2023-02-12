@@ -31,13 +31,6 @@ box-sizing: border-box;
   font-family: "Heavyrain";
   src:url(font/Heavyrain.ttf);
 }
-.fa-hand-o-down.show {
-  display: inline-block;
-}
-
-.fa-hand-o-right.hide {
-  display: none;
-}
 
 @font-face {
   font-family: "Barcode";
@@ -113,6 +106,7 @@ button.data-container{
 	background: 'black';
 color:'white';
 }
+
 #dialog-link {
   padding: 4px;
 /*   text-decoration: none; */
@@ -150,8 +144,9 @@ color:'white';
   top: 50%;
   margin-top: -8px;
 }
-.footer-nav p {
-  font-weight: normal;
+.footer-nav {
+  display: flex;
+  flex-direction: row;
 }
 #year{
   float: left;
@@ -618,6 +613,7 @@ h1 {
   footer * {
     display: block;
   float: center;
+  align-items: center;
     color: black;
     margin-top: 8px;
     margin-left:0px;
@@ -629,7 +625,7 @@ h1 {
 	}
 	
   .footer-nav ul{
-    position:relative;
+    position: absolute;
   align-items: center;
 	    float: center;
     font-size: 11px;
