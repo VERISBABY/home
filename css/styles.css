@@ -593,12 +593,6 @@ div #veris{
   }
 }
 
-.foot {
-font-weight: normal;
-font-size: 12px;
-font-family: 'Barcode', monospace;
-}
-
 /* Đáp ứng Mã Cho Điện thoại*/
 @media screen and (max-width:750px){
 ul .header-nav {
@@ -612,9 +606,15 @@ h1 {
  h2 {
   font-size: 2px;
 }
-  .footer-nav {
-    font-size: 10px;
-    float: left;
+.footer-nav{
+	  display: block;
+	}
+	
+  .footer-nav ul{
+    font-size: 11px;
+    font-weight: bold;
+  display: flex;
+  flex-direction: row;
   }
   .contact-title{
     position: relative;
@@ -637,13 +637,7 @@ margin-top: 224px;
     margin-top: 8px;
     margin-left:0px;
   }
-  .footer-nav {
-  display: flex;
-  flex-direction: row;
-    font-size: 13px;
-    font-weight: bold;
-    float: center;
-  }
+
   #gach{
     position:relative;
   }
