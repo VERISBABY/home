@@ -8,7 +8,12 @@ p{
   font-family: Courier;
   font-size: 13px;
 }
-
+h1 {
+  font-family: "Island Moments";
+}
+h2 {
+  font-family: 'Heavy Rain', "Press Start 2P", "Rye";
+}
 .myp{
 font-family: Times;
 font-size: 24px;
@@ -158,12 +163,7 @@ color:'white';
     float: center;
   }
 }
-h1 {
-  font-family: "Canterbury","Island Moments";
-}
-h2 {
-  font-family: 'Heavy Rain', "Press Start 2P", "Rye";
-}
+
 .about-slide img {
   float: right;
 }
