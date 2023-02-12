@@ -606,6 +606,7 @@ h1 {
  h2 {
   font-size: 2px;
 }
+	
 .footer-nav{
 	  display: block;
 	}
@@ -615,6 +616,8 @@ h1 {
     font-weight: bold;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
   }
   .contact-title{
     position: relative;
