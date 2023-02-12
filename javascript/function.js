@@ -18,29 +18,11 @@ document.getElementById("year") = year +  "&copyVERISBABY "+" | " + time;
     }
   }
   
-  var navItem = document.getElementsByClassName("nav-item")[0];
-  navItem.addEventListener("click", function() {
-    var plusMinus = this.getElementsByClassName("plus-minus")[0];
-    if (plusMinus.classList.contains("fa-plus")) {
-      plusMinus.classList.remove("fa-plus");
-      plusMinus.classList.add("fa-minus");
-    } else {
-      plusMinus.classList.remove("fa-minus");
-      plusMinus.classList.add("fa-plus");
-    }
-  });
-  
-  var dropdown = document.getElementsByClassName("dropdown")[0];
-  dropdown.addEventListener("click", function() {
-    var dropdownContent = this.getElementsByClassName("dropdown-content")[0];
-    var plusMinus = this.getElementsByClassName("plus-minus")[0];
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-      plusMinus.classList.remove("fa-minus");
-      plusMinus.classList.add("fa-plus");
-    } else {
-      dropdownContent.style.display = "block";
-      plusMinus.classList.remove("fa-plus");
-      plusMinus.classList.add("fa-minus");
-    }
-  });
+const projectsLink = document.querySelector('.header-nav .dropdown a');
+const plusMinusIcon = projectsLink.querySelector('.plus-minus');
+
+projectsLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  plusMinusIcon.classList.toggle('fa-plus');
+  plusMinusIcon.classList.toggle('fa-minus');
+});
