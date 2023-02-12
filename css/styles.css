@@ -771,10 +771,11 @@ margin-top: 10px;
     float: right;
   }
   .footer-nav2 {
+	  display: flex;
     font-size: 14px;
     margin: 5px 140px;
     font-weight: bold;
-    float: left;
+    float: center;
   }
 }
 
