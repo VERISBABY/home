@@ -4,18 +4,19 @@
   
 
 // DROPDOWN
-  function headerNavFunction() {
-    var x = document.getElementsByClassName("header-nav-list")[0];
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
+const dropdownToggle = document.getElementById("dropdown-toggle");
+const dropdownContent = document.getElementById("dropdown-content");
+const icon = document.getElementById("icon");
+
+dropdownToggle.addEventListener("click", function() {
+  if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+    icon.classList.remove("fa-minus");
+    icon.classList.add("fa-plus");
+  } else {
+    dropdownContent.style.display = "block";
+    icon.classList.remove("fa-plus");
+    icon.classList.add("fa-minus");
   }
-  
-document.querySelector(".dropdown a").addEventListener("click", function() {
-  const faDown = this.querySelector(".fa-hand-o-down");
-  const faRight = this.querySelector(".fa-hand-o-right");
-  faDown.classList.toggle("show");
-  faRight.classList.toggle("hide");
 });
+
