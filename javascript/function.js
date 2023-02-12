@@ -5,10 +5,7 @@
 
 // DROPDOWN
 function headerNavFunction() {
-  const headerNav = document.getElementsByClassName("header-nav")[0];
      const headerNav2 = document.getElementsByClassName("header-nav-list")[0];
-
-  headerNav.classList.toggle("show");
      headerNav2.classList.toggle("show");
 
 }
