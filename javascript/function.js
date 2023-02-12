@@ -5,10 +5,14 @@
 
 // DROPDOWN
 function headerNavFunction() {
-     const headerNav2 = document.getElementsByClassName("header-nav-list")[0];
-     headerNav2.classList.toggle("show");
-
+  var x = document.getElementsByClassName("header-nav-list")[0];
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
+
 
 function headerNavFunction() {
   const headerNavDropdown = document.getElementsByClassName("dropdown-content")[0];
