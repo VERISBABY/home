@@ -148,9 +148,7 @@ color:'white';
   display: flex;
   flex-direction: row;
 }
-#year{
-  float: left;
-}
+
 h1 {
   font-family: "Canterbury","Island Moments";
 }
@@ -613,19 +611,17 @@ h1 {
   footer * {
     display: block;
   float: center;
-  align-items: center;
     color: black;
     margin-top: 8px;
     margin-left:0px;
   }
-.footer-nav *{
+.footer-nav {
 	  display: block;
-  align-items: center;
 	  float: center;
 	}
 	
   .footer-nav ul{
-    position: absolute;
+    position: relative;
   align-items: center;
 	    float: center;
     font-size: 11px;
