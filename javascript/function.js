@@ -34,4 +34,4 @@ flkty.on('scroll', function () {
   });
 });
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+document.getElementById("year").innerHTML = "&copyVERISBABY " + new Date().getFullYear();
