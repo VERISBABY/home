@@ -148,7 +148,16 @@ color:'white';
   display: flex;
   flex-direction: row;
 }
-
+  .footer-nav2 {
+	  display: flex;
+	  align-content: center;
+    font-size: 14px;
+	  	  align-items: center;
+    margin: 5px 140px;
+    font-weight: bold;
+    float: center;
+  }
+}
 h1 {
   font-family: "Canterbury","Island Moments";
 }
@@ -770,12 +779,4 @@ margin-top: 10px;
     font-weight: bold;
     float: right;
   }
-  .footer-nav2 {
-	  display: flex;
-    font-size: 14px;
-    margin: 5px 140px;
-    font-weight: bold;
-    float: center;
-  }
-}
 
