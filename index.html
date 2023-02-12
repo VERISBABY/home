@@ -35,30 +35,6 @@
   </nav>
 </header>
 
-<script>
-  function headerNavFunction() {
-    var x = document.getElementsByClassName("header-nav-list")[0];
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-  
-  var dropdown = document.getElementsByClassName("dropdown")[0];
-  dropdown.addEventListener("click", function() {
-    var dropdownContent = this.getElementsByClassName("dropdown-content")[0];
-    var plusMinus = this.getElementsByClassName("plus-minus")[0];
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-      plusMinus.innerHTML = "+";
-    } else {
-      dropdownContent.style.display = "block";
-      plusMinus.innerHTML = "-";
-    }
-  });
-</script>
-
       <body>
         <section class="about">
 <div>
@@ -99,14 +75,14 @@
   </body>
 </nav> -->
 <nav class="footer-nav">
-	<li class="date" id="year"></li>
         <ul>
-          <li><body onload='display_ct()'><p id='time'></p></body></li>
+<!--           <li><body onload='display_ct()'><p id='time'></p></body></li> -->
           <li><a href="https://www.instagram.com/verisbabythenhan/" target="_blank">INSTAGRAM</a></li>
 	  <li><a href="https://stackoverflow.com/users/17873096/verisbaby" target="_blank">StackOverflow</a></li>
           <li><a href="https://www.linkedin.com/in/verisbaby/" target="_blank">LINKEDIN</a></li>
           <li><a href="https://www.youtube.com/c/VERISBABY" target="_blank">YOUTUBE</a></li>
         </ul>
+	<li class="date" id="year"></li>
 </nav>
 </footer>
 <script src="jquery.js"></script>
