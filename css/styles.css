@@ -617,7 +617,7 @@ h1 {
 /*  */
   footer * {
     display: block;
-  align-items: center;
+  float: center;
     color: black;
     margin-top: 8px;
     margin-left:0px;
@@ -625,11 +625,13 @@ h1 {
 .footer-nav *{
 	  display: block;
   align-items: center;
+	  float: center;
 	}
 	
   .footer-nav ul{
     position:relative;
   align-items: center;
+	    float: center;
     font-size: 11px;
 font-weight: bold;
   display: flex;
