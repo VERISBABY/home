@@ -164,6 +164,36 @@ h2 {
 video{
     float: right;
 }
+/* HIỆU ỨNG TRANG */
+.circle-generator {
+  inline-size: 100vw;
+  block-size: 100vh;
+  block-size: 100dvh;
+}
+
+.circle {
+  --wavefront-color: 200, 50%, 40%;
+  --wavefront-delta: 10%;
+  --wavefront-radius: 0%;
+  --wavefront-frequency: 10%;
+  --wavefront-intensity: 1;
+  --wavefront-x-pos: 0px;
+  --wavefront-y-pos: 0px;
+
+  inline-size: 100%;
+  block-size: 100%;
+
+  position: absolute;
+  background-image: radial-gradient(
+    circle at var(--wavefront-x-pos) var(--wavefront-y-pos),
+    hsla(343, 67%, 52%, 0)
+      calc(var(--wavefront-radius) - var(--wavefront-delta)),
+    hsla(var(--wavefront-color), var(--wavefront-intensity))
+      var(--wavefront-radius),
+    rgba(0, 0, 0, 0) calc(var(--wavefront-radius) + var(--wavefront-delta))
+  );
+}
+
 /* Trang Liên Hệ*/
 form {
   display: block;
