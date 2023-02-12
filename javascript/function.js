@@ -6,11 +6,16 @@
 // DROPDOWN
 function headerNavFunction() {
   const headerNav = document.getElementsByClassName("header-nav")[0];
+     const headerNav2 = document.getElementsByClassName("header-nav-list")[0];
+
   headerNav.classList.toggle("show");
+     headerNav2.classList.toggle("show");
+
 }
 
 function headerNavFunction() {
   const headerNavDropdown = document.getElementsByClassName("dropdown-content")[0];
+ 
   headerNavDropdown.classList.toggle("show");
   
   const icon = document.getElementById("icon");
