@@ -1,10 +1,13 @@
 // NGÀY GIỜ
+  function updateTime() {
 const date = new Date();
 const year = date.getFullYear();
 const hours = date.getHours();
 const minutes = date.getMinutes();
 const time = hours + ":" + (minutes < 10 ? "0" + minutes : minutes);
-document.getElementById("year") = "VERISBABY " + year + " " + time;
+document.getElementById("year") = year +  "&copyVERISBABY "+" | " + time;  }
+  
+  setInterval(updateTime, 60000); // update the time every minute
 
 // DROPDOWN
   function headerNavFunction() {
