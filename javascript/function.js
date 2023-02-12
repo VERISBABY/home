@@ -4,27 +4,23 @@
   
 
 // DROPDOWN
-const iconbar = document.querySelector(".icon");
- const headerNav = document.querySelector(".header-nav");
-iconbar.addEventListener("click", headerNavFunction() {
+function headerNavFunction() {
+  const headerNav = document.getElementsByClassName("header-nav")[0];
   headerNav.classList.toggle("show");
-};
+}
 
-
-//
-const dropdownToggle = document.getElementById("dropdown-toggle");
-const dropdownContent = document.getElementById("dropdown-content");
-const icon = document.getElementById("icon");
-
-dropdownToggle.addEventListener("click", function() {
-  if (dropdownContent.style.display === "block") {
-    dropdownContent.style.display = "none";
-    icon.classList.remove("fa-minus");
-    icon.classList.add("fa-plus");
-  } else {
-    dropdownContent.style.display = "block";
+function headerNavFunction() {
+  const headerNavDropdown = document.getElementsByClassName("dropdown-content")[0];
+  headerNavDropdown.classList.toggle("show");
+  
+  const icon = document.getElementById("icon");
+  if (headerNavDropdown.classList.contains("show")) {
     icon.classList.remove("fa-plus");
     icon.classList.add("fa-minus");
+  } else {
+    icon.classList.remove("fa-minus");
+    icon.classList.add("fa-plus");
   }
-});
+}
+
 
