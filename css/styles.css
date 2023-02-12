@@ -31,6 +31,13 @@ box-sizing: border-box;
   font-family: "Heavyrain";
   src:url(font/Heavyrain.ttf);
 }
+.fa-hand-o-down.show {
+  display: inline-block;
+}
+
+.fa-hand-o-right.hide {
+  display: none;
+}
 
 @font-face {
   font-family: "Barcode";
