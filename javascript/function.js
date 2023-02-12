@@ -9,7 +9,7 @@ const dropdownContent = document.getElementById("dropdown-content");
 const icon = document.getElementById("icon");
 
 dropdownToggle.addEventListener("click", function() {
-  if (dropdownContent.style.display === "block") {
+  if (dropdownContent.style.display === "show") {
     dropdownContent.style.display = "none";
     icon.classList.remove("fa-minus");
     icon.classList.add("fa-plus");
