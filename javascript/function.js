@@ -33,3 +33,5 @@ flkty.on('scroll', function () {
     image.style.backgroundPosition = x + 'px';
   });
 });
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
