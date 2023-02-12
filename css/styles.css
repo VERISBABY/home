@@ -612,8 +612,8 @@ ul .header-nav {
 h1 {
   font-size: 36px;
 }
- h2 {
-  font-size: 2px;
+ .faq-title h2 {
+  font-size: 1px;
 }
 
 /*  */
