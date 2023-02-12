@@ -4,7 +4,7 @@
   
 
 // DROPDOWN
-const iconbar = document.getElementById(".icon");
+const iconbar = document.querySelector(".icon");
  const headerNav = document.querySelector(".header-nav");
 iconbar.addEventListener("click", headerNavFunction() {
   headerNav.classList.toggle("show");
