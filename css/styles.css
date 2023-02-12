@@ -739,6 +739,7 @@ margin-top: 10px;
   .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
   }
   .about2 {
     display: grid;
