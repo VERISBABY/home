@@ -42,6 +42,11 @@ box-sizing: border-box;
   src:url(font/Barcode39.ttf);
 }
 /* Trang Chủ*/
+.icon-close a{
+    display: none;
+	    font-size: 24px;
+    cursor: pointer;
+  }
 header * {
     color: black;
     display: inline;
@@ -50,11 +55,6 @@ header * {
     font-size: 18px;
     float: right;
 } */
-.icon-close{
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
-  }
   .header-nav {
     display: flex;
     justify-content: space-between;
