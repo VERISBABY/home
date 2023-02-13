@@ -42,9 +42,9 @@ box-sizing: border-box;
   src:url(font/Barcode39.ttf);
 }
 /* Trang Chủ*/
-.icon-close a{
+.icon-close .fa-times{
     display: none;
-	    font-size: 24px;
+font-size: 24px;
     cursor: pointer;
   }
 header * {
