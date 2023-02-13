@@ -603,6 +603,7 @@ div #veris{
 @media screen and (max-width:750px){
 ul .header-nav {
       font-size: 14px;
+	font-weight:bold;
 /*       float:right; */
 	width:100%;
       position:relative;
@@ -693,11 +694,11 @@ margin-top: 10px;
 	
     .header-nav-list {
       display: none;
-	   width:100%;
+	 width:100%;
     z-index: 100;
     }
     .icon {
-position:absolute;
+	    position: relative;
       display: block;
     }
 	.icon-close{
