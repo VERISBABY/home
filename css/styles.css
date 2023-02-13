@@ -614,7 +614,8 @@ ul .header-nav {
       font-size: 14px;
 /*       float:right; */
 	width:100%;
-      position:absolute;
+      position:relative;
+	z-index:100;
       }
 h1 {
   font-size: 36px;
