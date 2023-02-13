@@ -111,20 +111,20 @@ nav a:hover {
   color: #8B0000;
   text-decoration: underline #DAA520 wavy;
 }
-button.data-container{
-	  padding: 4px;
+.data-container button{
+	  margin: 6px;
 	background: 'black';
 color:'white';
 }
 
 #dialog-link {
-  padding: 4px;
+margin: 6px;
 /*   text-decoration: none; */
   position: relative;
 }
 
 #dialog-linki {
-  padding: 4px;
+margin: 6px;
 /*   text-decoration: none; */
   position: relative;
 }
