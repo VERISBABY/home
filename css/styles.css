@@ -89,7 +89,7 @@ header * {
     display: none;
     position: absolute;
     background-color: #000000;
-left: -50px;
+left: -45px;
     min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 10;
@@ -626,7 +626,8 @@ h1 {
 /*  */
   footer * {
     display: block;
-  float: center;
+  align-items: center;
+  text-align: center;
     color: black;
     margin-top: 8px;
     margin-left:0px;
@@ -702,6 +703,8 @@ margin-top: 10px;
     .header-nav-list {
       display: none;
 	   width:100%;
+    position: absolute;
+    z-index: 100;
     }
     .icon {
 position:absolute;
