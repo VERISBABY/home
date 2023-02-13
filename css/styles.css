@@ -100,7 +100,12 @@ left: -45px;
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
+#product-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
 #til1{
   float: right;
 }
