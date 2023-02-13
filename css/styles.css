@@ -42,11 +42,12 @@ box-sizing: border-box;
   src:url(font/Barcode39.ttf);
 }
 /* Trang Chủ*/
-.icon-close .fa-times{
+.icon-close a{
     display: none;
 font-size: 24px;
     cursor: pointer;
   }
+
 header * {
     color: black;
     display: inline;
@@ -764,6 +765,12 @@ margin-top: 10px;
     font-size: 18px;
   }
   /* 2 NÚT MYUNIVER */
+	.fa-times i{
+	display:none;
+	}
+	.icon=close ul{
+		display:none;
+	}
 #wrap {
   display: inline; 
   text-align: center; 
