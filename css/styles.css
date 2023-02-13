@@ -170,7 +170,91 @@ margin: 6px;
 video{
     float: right;
 }
+.product-card{
+  width: 400px;
+  height: 600px;
+  position: relative;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
+}
 
+.default-img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.product-card:hover .default-img {
+  display: none;
+}
+
+.product-card:hover .hover-img {
+  display: block;
+}
+
+.product-name {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.product-price {
+  text-align: center;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.product-card img {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-card .default-img {
+  z-index: 1;
+}
+
+.product-card .hover-img {
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.product-card:hover .hover-img {
+  opacity: 1;
+}
+
+.product-name {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  /* position: relative; */
+
+}
+
+.product-price {
+  text-align: center;
+  margin-top: 5px;
+  font-style: italic;
+}
+#back-to-top-btn {
+  display: none;
+}
 /* Trang Liên Hệ*/
 form {
   display: block;
