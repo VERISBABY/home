@@ -42,11 +42,6 @@ box-sizing: border-box;
   src:url(font/Barcode39.ttf);
 }
 /* Trang Chủ*/
-.icon-close a{
-    display: none;
-font-size: 24px;
-    cursor: pointer;
-  }
 
 header * {
     color: black;
@@ -79,7 +74,12 @@ header * {
     cursor: pointer;
     display: none;
   }
-
+.icon-close a{
+    display: none;
+	position: absolute;
+font-size: 24px;
+    cursor: pointer;
+  }
   .dropdown {
     position: relative;
     display: inline-block;
