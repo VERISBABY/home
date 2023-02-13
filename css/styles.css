@@ -701,9 +701,10 @@ margin-top: 10px;
 	
     .header-nav-list {
       display: none;
+	   width:100%;
     }
     .icon {
-	    position:relative;
+position:absolute;
       display: block;
     }
 	.icon-close{
