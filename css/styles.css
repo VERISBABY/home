@@ -603,6 +603,7 @@ div #veris{
 /* Đáp ứng Mã Cho Điện thoại*/
 @media screen and (max-width:750px){
 ul .header-nav {
+	display: none;
       font-size: 14px;
 	font-weight:bold;
 /*       float:right; */
