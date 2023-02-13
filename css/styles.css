@@ -73,6 +73,12 @@ header * {
     cursor: pointer;
     display: none;
   }
+.icon-close{
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
+
   .dropdown {
     position: relative;
     display: inline-block;
@@ -691,17 +697,17 @@ margin-top: 10px;
   height: 100%;
   }
 	
-/*   .header-nav{
-    display: block;
-    font-size: 16px;
-    position: absolute;
-} */
     .header-nav-list {
       display: none;
+	    position: absolute;
     }
     .icon {
+	    position:relative;
       display: block;
     }
+	.icon-close{
+     display: block;
+  }
   .button-container{
     display: block;
     position: center;
