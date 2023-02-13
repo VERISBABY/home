@@ -160,12 +160,11 @@ color:'white';
 }
   .footer-nav2 {
 	  display: flex;
-	  align-content: center;
+	  text-align: center;
     font-size: 14px;
 	  	  align-items: center;
     margin: 5px;
     font-weight: bold;
-    float: center;
   }
 }
 
