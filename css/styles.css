@@ -744,6 +744,27 @@ margin-top: 10px;
     width: 220px;
     line-height: 40px;
         }
+	  #product-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #back-to-top-btn {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  #back-to-top-btn i {
+    font-size: 18px;
+  }
 }
 
 /*  */
