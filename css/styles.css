@@ -74,7 +74,7 @@ header * {
     cursor: pointer;
     display: none;
   }
-.icon-close a{
+.icon-close {
     display: none;
 	position: relative;
 font-size: 24px;
@@ -112,10 +112,9 @@ left: -45px;
 #til1{
   float: right;
 }
-.container{
-justify-content: center;
-}
+
 .btnn {
+	    position: center;
 font-weight:bold;
   width: 120px;
   height: 45px;
@@ -128,7 +127,6 @@ font-weight:bold;
     inset 2px 0px 1px 1px #F28133
     
 }
-
 .btnn:active {
   top: 2px;
 }
@@ -825,7 +823,7 @@ margin-top: 10px;
     z-index: 100;
     }
     .icon {
-	    position: fixed;
+	    position: relative;
       display: block;
     }
 	.icon-close{
