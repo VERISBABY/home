@@ -708,7 +708,8 @@ h1 {
  flex-direction: column;
 	margin-top:6px;
 }
-	#latestvideo iframe{
+	
+#latestvideo iframe{
 width: 100%;
 }
 .footer-nav {
