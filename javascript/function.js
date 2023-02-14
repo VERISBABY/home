@@ -14,7 +14,7 @@ function headerNavFunction() {
 }
 // 
 // Wrap every letter in a span
-var textWrapper = document.getElementsByClassName('.ml3');
+var textWrapper = document.querySelector('h1.ml3');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
