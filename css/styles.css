@@ -112,7 +112,10 @@ left: -45px;
 #til1{
   float: right;
 }
-
+.container button{
+	float:center;
+/* align-items: center; */
+}
 .btnn {
 	    position: center;
 font-weight:bold;
