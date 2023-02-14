@@ -112,8 +112,11 @@ left: -45px;
 #til1{
   float: right;
 }
-
+.container{
+justify-content: center;
+}
 .btnn {
+font-weight:bold;
   width: 120px;
   height: 45px;
   background: #F4A63A;
@@ -163,7 +166,7 @@ nav a:hover {
 	background: 'black';
 color:'white';
 }
-#latestvideo iframe{
+#latestvideo{
 width: 540px;
 }
 
@@ -869,15 +872,20 @@ margin-top: 10px;
     flex-basis: 100%;
     justify-content: center;
   }
-	
-.product-card img{
+.product-card{
   width: 100%;
   height: 600px;
+  position: relative;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
 }
+
   #back-to-top-btn {
     display: block;
     position: fixed;
-	  z-index:100;
+	z-index:100;
     bottom: 20px;
     right: 20px;
     background-color: #333;
