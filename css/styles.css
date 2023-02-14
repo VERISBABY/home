@@ -823,7 +823,6 @@ margin-top: 10px;
     z-index: 100;
     }
     .icon {
-	    position: relative;
       display: block;
     }
 	.icon-close{
