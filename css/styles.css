@@ -833,14 +833,19 @@ margin-top: 10px;
     width: 220px;
     line-height: 40px;
         }
-	  #product-gallery {
+#product-gallery {
     display: flex;
     flex-direction: column;
+	  flex-wrap: wrap;
     justify-content: center;
   }
+	.product-card img{
+	width:100%;
+	}
   #back-to-top-btn {
     display: block;
     position: fixed;
+	  z-index:100;
     bottom: 20px;
     right: 20px;
     background-color: #333;
