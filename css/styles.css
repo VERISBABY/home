@@ -170,12 +170,12 @@ color:'white';
 width: 540px;
 }
 
-#dialog-linki span{
+/* #dialog-linki span{
   margin: 0;
   position: absolute;
   left: 4px;
   top: 50%;
-	margin-top: -8px;}
+	margin-top: -8px;} */
 
 #dialog-link span{
   margin: 0;
