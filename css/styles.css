@@ -106,7 +106,7 @@ left: -45px;
 #product-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
 }
 #til1{
@@ -167,7 +167,7 @@ nav a:hover {
 color:'white';
 }
 #latestvideo{
-width: 540px;
+width: 580px;
 }
 
 /* #dialog-linki span{
@@ -785,9 +785,7 @@ margin-top: 224px;
   #gach{
     position:relative;
   }
-  .about {
-    font-size: 11px;
-  }
+	
   .faq-title{
     font-style: 100px;
     font-weight: bold;
