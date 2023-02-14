@@ -822,6 +822,8 @@ margin-top: 10px;
 #product-gallery {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
     justify-content: center;
   }
 	
