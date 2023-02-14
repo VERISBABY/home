@@ -14,7 +14,7 @@ function headerNavFunction() {
 }
 // 
 // Wrap every letter in a span
-var textWrapper = document.querySelector('.ml3');
+var textWrapper = document.getElementsByClassName('.ml3');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
@@ -33,42 +33,9 @@ anime.timeline({loop: true})
   });
 
   // LẶP SẢN PHẨM CARD
-  var productGallery = document.getElementById("product-gallery");
 
-  fetch("./products.json")
-    .then(response => response.json())
-    .then(products => {
-      products.forEach(product => {
-        var productCard = document.createElement("div");
-        productCard.classList.add("product-card");
-  
-        var defaultImg = document.createElement("img");
-        defaultImg.classList.add("default-img");
-        defaultImg.src = product.defaultImg;
-        defaultImg.alt = product.name + " Default";
-  
-         hoverImg.src = product.hoverImg;
-        hoverImg.alt = product.name + " Hover";
-  
-        var productName = document.createElement("p");
-        productName.classList.add("product-name");
-        productName.textContent = product.name;
-  
-        var productPrice = document.createElement("p");
-        productPrice.classList.add("product-price");
-        productPrice.textContent = product.price;
-  
-        productCard.appendChild(defaultImg);
-        productCard.appendChild(hoverImg);
-        productCard.appendChild(productName);
-        productCard.appendChild(productPrice);
-  
-        productGallery.appendChild(productCard);
-      });
-    });    var hoverImg = document.createElement("img");
-        hoverImg.classList.add("hover-img");
-        
   //  
+// Nút BACK TO TOP
   var backToTopBtn = document.getElementById("back-to-top-btn");
 backToTopBtn.style.display = "none";
 
@@ -85,8 +52,4 @@ backToTopBtn.addEventListener("click", function() {
     behavior: "smooth"
   });
 });
-
-  
-  
-
 
