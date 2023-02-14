@@ -175,6 +175,7 @@ margin: 6px;
 	grid-gap: 6px;
 }
 #lvideo{
+	width: 100%;
 	border-style: dotted;
 }
 .about-slide-vid {
