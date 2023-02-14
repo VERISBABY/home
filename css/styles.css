@@ -69,7 +69,7 @@ header * {
     display: block;
     padding: 10px 15px;
   }
-    .icon {
+    .icon a{
     font-size: 24px;
     cursor: pointer;
     display: none;
@@ -745,11 +745,13 @@ h1 {
   display: flex;
  flex-direction: column;
 	margin-top:6px;
+justify-content: center;
+	width:100%;
 }
 	
-#latestvideo{
+#latestvideo iframe{
 width: 100%;
-	  height: 100%;
+height: 100%;
 }
 	
 .footer-nav {
@@ -822,7 +824,7 @@ margin-top: 10px;
 	 width:100%;
     z-index: 100;
     }
-    .icon {
+    .icon a{
       display: block;
     }
 	.icon-close{
