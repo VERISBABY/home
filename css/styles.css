@@ -203,6 +203,10 @@ video{
   object-fit: cover;
   display: none;
 }
+
+.product-card:hover .default-img {
+  display: none;
+}
 .product-name {
   display: none;
   position: relative;
@@ -210,14 +214,12 @@ video{
   margin-top: 10px;
   font-weight: bold;
 }
-.product-card:hover .default-img {
-  display: none;
-}
-
-.product-card:hover .hover-img .product-name{
+.product-card:hover .hover-img {
   display: block;
 }
-
+.product-card:hover .product-name{
+  display: block;
+}
 .product-price {
   text-align: center;
   margin-top: 5px;
