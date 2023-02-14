@@ -671,8 +671,8 @@ div #veris{
   filter: drop-shadow(0 0 6px orange);
   overflow: hidden;
 }
-
-/* Đáp ứng Mã Cho Điện thoại*/
+/*  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Đáp ứng Mã Cho Điện thoại */ 
 @media screen and (max-width:750px){
 ul .header-nav {
 	display: none;
@@ -698,6 +698,9 @@ h1 {
     color: black;
     margin-top: 8px;
     margin-left:0px;
+  }
+	  .about-slide {
+display: block;
   }
 .footer-nav {
 	  display: block;
