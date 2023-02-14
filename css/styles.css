@@ -128,17 +128,7 @@ color:'white';
 #latestvideo iframe{
 width: 540px;
 }
-#dialog-link {
-margin: 6px;
-/*   text-decoration: none; */
-  position: relative;
-}
 
-#dialog-linki {
-margin: 6px;
-/*   text-decoration: none; */
-  position: relative;
-}
 #dialog-linki span{
   margin: 0;
   position: absolute;
