@@ -127,7 +127,7 @@ class StarrySky extends React.Component {
               r={this.randomRadius()}
               stroke="none"
               strokeWidth="0"
-              fill="white"
+              fill="orange"
               key={y}
               className="star"
             />
