@@ -52,4 +52,14 @@ backToTopBtn.addEventListener("click", function() {
     behavior: "smooth"
   });
 });
-
+// 
+  const path = anime.path('#text');
+  const textAnimation = anime({
+    targets: '#text',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 3000,
+    delay: 500,
+    direction: 'alternate',
+    loop: true
+  });
