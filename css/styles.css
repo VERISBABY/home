@@ -697,9 +697,10 @@ h1 {
     margin-top: 8px;
     margin-left:0px;
   }
-	  .about-slide {
-display: block;
-  }
+.about-slide {
+  display: flex;
+ flex-direction: column;
+}
 .footer-nav {
 	  display: block;
 	  float: center;
