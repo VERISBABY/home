@@ -112,12 +112,7 @@ left: -45px;
 #til1{
   float: right;
 }
-.container {
-  display: flex;
-  height: 200px;
-  justify-content: center;
-  align-items: center;
-}
+
 .btnn {
   width: 120px;
   height: 45px;
