@@ -150,4 +150,4 @@ class StarrySky extends React.Component {
   }
 }
 
-ReactDOM.render(<StarrySky />, document.querySelector("body"));
+ReactDOM.render(<StarrySky />, document.querySelector(".about"));
