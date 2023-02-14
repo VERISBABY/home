@@ -169,8 +169,10 @@ margin: 6px;
 }
 
 
-.about-slide img {
-  float: right;
+.about-slide {
+  display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 6px;
 }
 .about-slide-vid {
   float: right;
