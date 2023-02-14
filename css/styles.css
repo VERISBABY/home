@@ -171,8 +171,9 @@ margin: 6px;
 
 .about-slide {
   display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 2fr 1fr;
 	grid-gap: 6px;
+	border-style: dotted;
 }
 .about-slide-vid {
   float: right;
@@ -814,7 +815,7 @@ margin-top: 10px;
 @media screen and (min-width:820px){
   .about {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
     grid-gap: 10px;
   }
   .about2 {
