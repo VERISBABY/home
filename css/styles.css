@@ -194,7 +194,10 @@ color:'white';
   display: flex;
   flex-direction: row;
 }
-
+.aboutme{
+justify-content: center;
+align=items: center;
+}
 
 .about-slide {
   display: grid;
@@ -203,6 +206,7 @@ color:'white';
 }
 .about-slide h3{
   text-align: center;
+
 }
 #lvideo{
 	border-style: dotted;
