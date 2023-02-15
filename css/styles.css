@@ -210,11 +210,16 @@ color:'white';
 .about-slide-vid {
   float: right;
 }
+.ml7 {
+	position: relative;}
 .ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
   overflow: hidden;
 }
 .ml7 .letter {
   transform-origin: 0 100%;
+  display: inline-block;
 }
 .product-card{
   width: 400px;
