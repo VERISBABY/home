@@ -174,11 +174,7 @@ width: 580px;
   left: 4px;
   top: 50%;
 	margin-top: -8px;} */
-  .about {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 10px;
-  }
+
 #dialog-link span{
   margin: 0;
   position: absolute;
@@ -731,7 +727,13 @@ h1 {
  .contact-title h2 {
   font-size: 1px;
 }
-
+  .about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
+  }
 /*  */
   footer * {
     display: block;
