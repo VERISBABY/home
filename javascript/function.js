@@ -33,8 +33,8 @@ anime.timeline({loop: true})
   });
 // NÚT 2
 // Wrap every letter in a span
-var textWrapper = document.querySelector('h3.ml7 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+var textWrapper2 = document.querySelector('h3.ml7 .letters');
+textWrapper2.innerHTML = textWrapper2.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
   .add({
