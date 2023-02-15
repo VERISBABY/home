@@ -868,7 +868,7 @@ margin-top: 10px;
 @media screen and (min-width:820px){
   .about {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 3fr 3fr;
     grid-gap: 10px;
   }
   .about2 {
