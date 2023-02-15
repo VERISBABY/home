@@ -876,6 +876,9 @@ margin-top: 10px;
     grid-template-columns: 1fr 2fr;
     grid-gap: 10px;
   }
+	  #abouti {
+width:400px
+  }
   iframe{
     height:480px;
   }
