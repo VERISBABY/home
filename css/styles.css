@@ -75,7 +75,7 @@ header * {
     display: none;
   }
 .icon-close {
-    display: none;
+	display: none;
 font-size: 24px;
     cursor: pointer;
   }
@@ -108,9 +108,9 @@ left: -45px;
 #til1{
   float: right;
 }
-.container button{
+.container {
 	float:center;
-/* align-items: center; */
+align-items: center;
 }
 .btnn {
 font-weight:bold;
@@ -119,7 +119,6 @@ font-weight:bold;
   height: 45px;
   background: #F4A63A;
   border: 0px;
-  position: relative;
   box-shadow: 
     inset -2px 2px 1px 1px #FFD989,
     inset -2px -2px 1px 1px #9E4D20,
@@ -204,18 +203,21 @@ align=items: center;
 	grid-template-columns: 3fr 1fr;
 	grid-gap: 6px;
 }
-.about-slide h3{
+.about-slide h2{
   text-align: center;
 
 }
 #lvideo{
 	border-style: dotted;
+	padding:6px;
 }
 .about-slide-vid {
   float: right;
 }
 .ml7 {
-	position: relative;}
+	position: relative;
+	z-index:1000;
+}
 .ml7 .text-wrapper {
   position: relative;
   display: inline-block;
