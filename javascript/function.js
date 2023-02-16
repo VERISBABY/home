@@ -33,12 +33,12 @@ anime.timeline({loop: true})
   });
 // NÚT 2
 // Wrap every letter in a span
-var textWrapper2 = document.querySelector('h3.ml7 .letters');
-textWrapper2.innerHTML = textWrapper2.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+var textWrappertwo = document.querySelector('h3.ml7 .letters');
+textWrappertwo.innerHTML = textWrappertwo.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
+var textWrapperTimeline = anime.timeline({loop: true})
   .add({
-    targets: '.ml7 .letter',
+    targets: textWrappertwo.querySelectorAll('.letter'),
     translateY: ["1.1em", 0],
     translateX: ["0.55em", 0],
     translateZ: 0,
@@ -46,8 +46,9 @@ anime.timeline({loop: true})
     duration: 750,
     easing: "easeOutExpo",
     delay: (el, i) => 50 * i
-  }).add({
-    targets: '.ml7',
+  })
+  .add({
+    targets: textWrappertwo,
     opacity: 0,
     duration: 1000,
     easing: "easeOutExpo",
