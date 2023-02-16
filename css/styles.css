@@ -124,6 +124,9 @@ font-weight:bold;
     inset -2px -2px 1px 1px #9E4D20,
     inset 2px 0px 1px 1px #F28133
 }
+.btnn:active {
+  top: 2px;
+}
 .btnn::after {
   content: '';
    background: #000;
@@ -135,9 +138,6 @@ font-weight:bold;
   z-index: -1
 }
 /* 
-.btnn:active {
-  top: 2px;
-}
 
 .btnn::before {
   content: '';
