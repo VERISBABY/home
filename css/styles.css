@@ -187,7 +187,7 @@ font-weight:bold;
 .btnn:active {
   top: 2px;
 }
-.btnn::after {
+/* .btnn::after {
   content: '';
    background: #000;
   position: absolute;
@@ -209,7 +209,7 @@ font-weight:bold;
   width: 20%;
   height: 30%;
   z-index: -2
-}
+} */
 
 .ml7 {
 	position: relative;
