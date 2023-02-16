@@ -216,7 +216,6 @@ align=items: center;
 }
 .ml7 {
 	position: relative;
-	z-index:1000;
 }
 .ml7 .text-wrapper {
   position: relative;
