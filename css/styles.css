@@ -130,11 +130,13 @@ font-weight:bold;
 .btnn::after {
   content: '';
    background: #000;
-  position: absolute;
+/*   position: absolute; */
   left: -2%;
   top: 0;
-  width: 104%;
-  height: 100%;
+/*   width: 104%;
+  height: 100%; */
+	  width: 10px;
+  height: 10px;
   z-index: -1
 }
 /* 
