@@ -123,13 +123,7 @@ font-weight:bold;
     inset -2px 2px 1px 1px #FFD989,
     inset -2px -2px 1px 1px #9E4D20,
     inset 2px 0px 1px 1px #F28133
-    
 }
-/* 
-.btnn:active {
-  top: 2px;
-}
-
 .btnn::after {
   content: '';
    background: #000;
@@ -139,6 +133,10 @@ font-weight:bold;
   width: 104%;
   height: 100%;
   z-index: -1
+}
+/* 
+.btnn:active {
+  top: 2px;
 }
 
 .btnn::before {
@@ -209,7 +207,7 @@ align=items: center;
 
 }
 #lvideo{
-	border-style: 5px dotted;
+  border: 4px dotted black;
 }
 .about-slide-vid {
   float: right;
