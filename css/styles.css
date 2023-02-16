@@ -122,13 +122,6 @@ nav a:hover {
 color:'white';
 }
 
-/* #dialog-linki span{
-  margin: 0;
-  position: absolute;
-  left: 4px;
-  top: 50%;
-	margin-top: -8px;} */
-
 #dialog-link span{
   margin: 0;
   position: absolute;
@@ -177,6 +170,7 @@ align=items: center;
 	justify-content: center;
 align-items: center;
 }
+
 .btnn {
 font-weight:bold;
   width: 120px;
@@ -192,7 +186,7 @@ font-weight:bold;
 .btnn:active {
   top: 2px;
 }
-.btnn::after {
+/* .btnn::after {
   content: '';
    background: #000;
   position: absolute;
@@ -201,9 +195,9 @@ font-weight:bold;
   width: 104%;
   height: 100%;
   z-index: -1
-}
+} */
 
-.btnn::before {
+/* .btnn::before {
   content: '';
    background: #000;
   position: absolute;
@@ -214,7 +208,7 @@ font-weight:bold;
   width: 20%;
   height: 30%;
   z-index: -2
-}
+} */
 
 .ml7 {
 	position: relative;
