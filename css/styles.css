@@ -112,7 +112,6 @@ left: -45px;
 .container button{
 align-items: center;
 }
-/* 
 .btnn {
 font-weight:bold;
   width: 120px;
@@ -126,6 +125,7 @@ font-weight:bold;
     inset 2px 0px 1px 1px #F28133
     
 }
+/* 
 .btnn:active {
   top: 2px;
 }
@@ -209,8 +209,7 @@ align=items: center;
 
 }
 #lvideo{
-	border-style: dotted;
-/* 	padding:6px; */
+	border-style: 5px dotted;
 }
 .about-slide-vid {
   float: right;
@@ -797,7 +796,7 @@ position:relative;
       display: none;
 	  position: relative;
 	 width:100%;
-    z-index: 1000;
+    z-index: 100;
     }
 	.icon-close{
      display: block;
@@ -905,6 +904,7 @@ width:400px
   z-index: 10;
   }
 	#latestvideo{
+		margin:6px;
 width: 770px;
 }
 	#back-to-top-btn {
