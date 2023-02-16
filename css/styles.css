@@ -110,8 +110,8 @@ left: -45px;
   float: right;
 }
 .container {
-	float:center;
-align-items: center;
+	float: center;
+/* align-items: center; */
 }
 .btnn {
 font-weight:bold;
