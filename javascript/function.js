@@ -58,7 +58,7 @@ var textWrapperTimeline = anime.timeline({loop: true})
 
   //  
 // Nút BACK TO TOP
-  var backToTopBtn = document.getElementById("back-to-top-btn");
+  const backToTopBtn = document.getElementById("back-to-top-btn");
 backToTopBtn.style.display = "none";
 
 window.onscroll = function() {
