@@ -33,27 +33,27 @@ anime.timeline({loop: true})
   });
 // NÚT 2
 // Wrap every letter in a span
-// var textWrappertwo = document.querySelector('.ml7 .letters');
-// textWrappertwo.innerHTML = textWrappertwo.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+var textWrappertwo = document.querySelector('h2.ml7 .letters');
+textWrappertwo.innerHTML = textWrappertwo.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-// var textWrapperTimeline = anime.timeline({loop: true})
-//   .add({
-//     targets: textWrappertwo.querySelectorAll('.letter'),
-//     translateY: ["1.1em", 0],
-//     translateX: ["0.55em", 0],
-//     translateZ: 0,
-//     rotateZ: [180, 0],
-//     duration: 750,
-//     easing: "easeOutExpo",
-//     delay: (el, i) => 50 * i
-//   })
-//   .add({
-//     targets: textWrappertwo,
-//     opacity: 0,
-//     duration: 1000,
-//     easing: "easeOutExpo",
-//     delay: 1000
-//   });
+var textWrapperTimeline = anime.timeline({loop: true})
+  .add({
+    targets: textWrappertwo.querySelectorAll('.letter'),
+    translateY: ["1.1em", 0],
+    translateX: ["0.55em", 0],
+    translateZ: 0,
+    rotateZ: [180, 0],
+    duration: 750,
+    easing: "easeOutExpo",
+    delay: (el, i) => 50 * i
+  })
+  .add({
+    targets: textWrappertwo,
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
   // LẶP SẢN PHẨM CARD
 
   //  
