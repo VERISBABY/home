@@ -109,49 +109,6 @@ left: -45px;
 #til1{
   float: right;
 }
-.container button{
-align-items: center;
-}
-.btnn {
-font-weight:bold;
-  width: 120px;
-	float:center;
-  height: 45px;
-  background: #F4A63A;
-  border: 0px;
-  box-shadow: 
-    inset -2px 2px 1px 1px #FFD989,
-    inset -2px -2px 1px 1px #9E4D20,
-    inset 2px 0px 1px 1px #F28133
-}
-.btnn:active {
-  top: 2px;
-}
-.btnn::after {
-  content: '';
-   background: #000;
-  position: absolute;
-  left: -2%;
-  top: 0;
-/*   width: 104%;
-  height: 100%; */
-	  width: 40px;
-  height: 40px;
-  z-index: -1
-}
-
-.btnn::before {
-  content: '';
-   background: #000;
-  position: absolute;
-  left: 0;
-  top: -5%;
-/*   width: 100%;
-  height: 110%; */
-  width: 20%;
-  height: 30%;
-  z-index: -2
-}
 a {
   text-decoration: none;
 }
@@ -215,6 +172,50 @@ align=items: center;
 .about-slide-vid {
   float: right;
 }
+
+.container{
+	justify-content: center;
+align-items: center;
+}
+.btnn {
+font-weight:bold;
+  width: 120px;
+	float:center;
+  height: 45px;
+  background: #F4A63A;
+  border: 0px;
+  box-shadow: 
+    inset -2px 2px 1px 1px #FFD989,
+    inset -2px -2px 1px 1px #9E4D20,
+    inset 2px 0px 1px 1px #F28133
+}
+.btnn:active {
+  top: 2px;
+}
+.btnn::after {
+  content: '';
+   background: #000;
+  position: absolute;
+  left: -2%;
+  top: 0;
+  width: 104%;
+  height: 100%;
+  z-index: -1
+}
+
+.btnn::before {
+  content: '';
+   background: #000;
+  position: absolute;
+  left: 0;
+  top: -5%;
+  width: 100%;
+  height: 110%;
+  width: 20%;
+  height: 30%;
+  z-index: -2
+}
+
 .ml7 {
 	position: relative;
 }
