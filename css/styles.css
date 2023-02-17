@@ -75,11 +75,7 @@ header * {
     cursor: pointer;
     display: none;
   }
-.icon-close {
-	display: none;
-font-size: 24px;
-    cursor: pointer;
-  }
+
   .dropdown {
     position: relative;
     display: inline-block;
@@ -788,14 +784,14 @@ margin-top: 10px;
   height: 100%;
   }
 	    .icon {
-      display: block;
-position:relative;
+display: block;
+position:fixed;
     }
     .header-nav-list {
       display: none;
 	  position: relative;
 	 width:100%;
-    z-index: 100;
+    z-index: 1000;
     }
 	.icon-close{
      display: block;
@@ -886,9 +882,14 @@ position:relative;
     grid-template-columns: 1fr 2fr;
     grid-gap: 10px;
   }
-	  #abouti {
+#abouti {
 width:400px;
 	height:100%;
+  }
+.icon-close {
+display: none;
+font-size: 24px;
+    cursor: pointer;
   }
   iframe{
     height:480px;
