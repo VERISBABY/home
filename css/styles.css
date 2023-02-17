@@ -785,12 +785,16 @@ margin-top: 10px;
   width: 100%;
   height: 100%;
   }
+	#abouti{
+	width:100%;
+	}
 	    .icon {
 display: block;
 position:relative;
     }
     .header-nav-list {
       display: none;
+	    background: 'black';
 	  position: relative;
     z-index: 10;
     }
