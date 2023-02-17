@@ -790,12 +790,11 @@ margin-top: 10px;
 	}
 	    .icon {
 display: block;
-position:relative;
+position:fixed;
     }
     .header-nav-list {
       display: none;
     background-color: #B07FDD;
-	  position: relative;
     z-index: 10;
     }
 	.icon-close{
