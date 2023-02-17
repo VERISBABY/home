@@ -24,7 +24,8 @@
 <!-- <a href="javascript:void(0);" class="icon-close" onclick="headerNavFunction()">
 	  <i class="fa fa-times"></i>
 	      </a> -->
-    <ul class="header-nav-list">
+    <ul class="header-nav-list">     
+	<li><a href="#" class="btnet">THE VERISBABY FAMILY STORE.</a></li>
       <li><a href="zodiacusthenhan.html" >ZODIACUS THENHAN.</a></li>
       <li class="dropdown">
         <a href="#">PROJECTS.<i class="fa fa-plus" id="iconn"></i></a>
@@ -44,7 +45,7 @@
         <section class="about">
 <div class="aboutme">
         <h2 class="contact-title">ABOUT ME.</h2>
-        <p style="font-family:Great Vibes; font-size: 22px">I'm a full-stack Software & Machine Learning/ AI Engineer. I passion for learning & updating new technical & new knowledge. Enhance my skills, as well as develop and research machine learning, AI technologies, applications.
+        <p style="font-family:Great Vibes; font-size: 22px">I'm a full-stack Software & Machine Learning/ AI Engineer. I passion for learning & updating new technical & new knowledge.<br>Enhance my skills, as well as develop and research machine learning, AI technologies, applications.
         </p>
 
 <div class="container">
@@ -63,12 +64,16 @@
 		     <img id="abouti" src="image/g.jpg" alt="verisbaby">
 </div>
 </section>
+	      
 <div id="dialog" title="bUSINESS OR SOFTWARE INQUIRIES">
 	<ul>
   <li><a href="mailto:verisbabythenhan@gmail.com">mAIL: verisbabythenhan@gmail.com</a></li>
 <li><a href="https://www.kaggle.com/babyveris" target="blank">mY KAGGLE (CLICK THIS LINE TO GO)</a></li>
-			</ul>
+</ul>
 </div>
+<div id="dialog3" title="bUSINESS OR SOFTWARE INQUIRIES">
+	<strong>Cpming soon.</strong>
+</div>	      
 </body>
 <!--  -->
 <footer>
@@ -118,6 +123,10 @@
 // Link to open the dialog
 $( ".btnn" ).click(function( event ) {
 	$( "#dialog" ).dialog( "open" );
+	event.preventDefault();
+});
+$( ".btet" ).click(function( event ) {
+	$( "#dialog3" ).dialog( "open" );
 	event.preventDefault();
 });
 $( "#dialog-linki, .ui-corner-all" ).hover(
