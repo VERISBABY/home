@@ -794,7 +794,7 @@ position:relative;
     }
     .header-nav-list {
       display: none;
-	    background: 'black';
+    background-color: #B07FDD;
 	  position: relative;
     z-index: 10;
     }
