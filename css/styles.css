@@ -75,7 +75,9 @@ header * {
     cursor: pointer;
     display: none;
   }
-
+#abouti{
+width: 460px;
+}
   .dropdown {
     position: relative;
     display: inline-block;
