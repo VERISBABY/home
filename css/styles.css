@@ -790,7 +790,7 @@ margin-top: 10px;
 	}
 	    .icon {
 display: block;
-position:fixed;
+position:relative;
     }
     .header-nav-list {
       display: none;
