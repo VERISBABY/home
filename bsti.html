@@ -256,11 +256,29 @@
     </div>
   </div>
 </div>
+<div id="dialog" title="cONTACT TO ORDER">
+  <p><a href="mailto:zodiacusthenhan.contact@gmail.com">gMAIL: zodiacusthenhan.contact@gmail.com</a></p>
+	  <p><a href="mailto:zodiacusthenhan.contact@gmail.com">For Viet Nam: 0392199484</a></p>
+</div>
   </body>
 
 <footer class="footer-nav">	 
 		<p id="year"></p>
 </footer>
+<<script>         
+$( "#dialog" ).dialog({
+	autoOpen: false,
+	width: 400,
+	buttons: [
+		{
+			text: "Close",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		}
+	]
+});
+</script>
 <script src="javascript/function.js"></script>
 <script src="javascript/item.js"></script>
 
