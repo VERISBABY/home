@@ -117,7 +117,7 @@
         </div>
         
         <div class="container">
-          <button class="btn" style="color: rgb(235, 181, 225);  font-family: 'Press Start 2P';   font-size: 10px;">Contact </button>
+          <button id="diaa" class="btn" style="color: rgb(235, 181, 225);  font-family: 'Press Start 2P';   font-size: 10px;">Contact </button>
         </div>
       </div>
       <div style="max-width: 250px;">
@@ -184,7 +184,7 @@
       </div>
       
       <div class="container">
-        <button class="btn" style="color: rgb(235, 181, 225);  font-family: 'Press Start 2P';   font-size: 10px;">Contact </button>
+        <button id="diaa" class="btn" style="color: rgb(235, 181, 225);  font-family: 'Press Start 2P';   font-size: 10px;">Contact </button>
       </div>
     </div>
     <div style="max-width: 250px;">
@@ -248,7 +248,7 @@
       </div>
       
       <div class="container">
-        <button class="btn" style="color: rgb(235, 181, 225);  font-family: 'Press Start 2P';   font-size: 10px;">Contact </button>
+        <button id="diaa" class="btn" style="color: rgb(235, 181, 225);  font-family: 'Press Start 2P';   font-size: 10px;">Contact </button>
       </div>
     </div>
     <div style="max-width: 250px;">
@@ -278,11 +278,11 @@ $( "#dialog" ).dialog({
 		}
 	]
 });
-$( ".btn" ).click(function( event ) {
+$( "#diaa" ).click(function( event ) {
 	$( "#dialog2" ).dialog( "open" );
 	event.preventDefault();
 });
-$( ".btn, .ui-corner-alll" ).hover(
+$( "#diaa, .ui-corner-alll" ).hover(
 	function() {
 		$( this ).addClass( "ui-state-hover" );
 	},
