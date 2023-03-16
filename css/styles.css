@@ -853,10 +853,10 @@ position:relative;
     justify-content: center;
   }
   #product-galleryi {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 5fr 5fr;
-    grid-gap: 10px;
+   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+    gap: 4px;
   }
   .product-cardi{
     width: 100%;
