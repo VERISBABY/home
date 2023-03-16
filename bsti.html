@@ -279,7 +279,7 @@ $( "#dialogc" ).dialog({
 	]
 });
 $( "#diaa" ).click(function( event ) {
-	$( "#dialog2" ).dialog( "open" );
+	$( "#dialogc" ).dialog( "open" );
 	event.preventDefault();
 });
 $( "#diaa, .ui-corner-alll" ).hover(
@@ -292,10 +292,10 @@ $( "#diaa, .ui-corner-alll" ).hover(
 );
 
 $( "#diaa2" ).click(function( event ) {
-	$( "#dialog2" ).dialog( "open" );
+	$( "dialogc" ).dialog( "open" );
 	event.preventDefault();
 });
-$( "#diaa, .ui-corner-alll" ).hover(
+$( "#diaa2, .ui-corner-alll" ).hover(
 	function() {
 		$( this ).addClass( "ui-state-hover" );
 	},
@@ -304,8 +304,8 @@ $( "#diaa, .ui-corner-alll" ).hover(
 	}
 );
 
-$( "#diaa" ).click(function( event ) {
-	$( "#dialog2" ).dialog( "open" );
+$( "#diaa3" ).click(function( event ) {
+	$( "#dialogc" ).dialog( "open" );
 	event.preventDefault();
 });
 $( "#diaa3, .ui-corner-alll" ).hover(
