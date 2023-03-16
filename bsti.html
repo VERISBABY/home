@@ -278,6 +278,18 @@ $( "#dialog" ).dialog({
 		}
 	]
 });
+$( ".btn" ).click(function( event ) {
+	$( "#dialog2" ).dialog( "open" );
+	event.preventDefault();
+});
+$( ".btn, .ui-corner-alll" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
 </script>
 <script src="javascript/function.js"></script>
 <script src="javascript/item.js"></script>
