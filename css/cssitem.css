@@ -1,0 +1,135 @@
+#product-dialog {
+    display: none;
+  }
+  
+  .product-details {
+    display: flex;
+  }
+  
+  /* .product-slider {
+    flex: 1;
+    margin-right: 20px;
+  } */
+  
+  .product-slider img {
+    width: 20px;
+    height: 30px;
+  }
+  
+  .product-info {
+    flex: 1;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    border-top: 1px solid #ddd;
+  }
+  
+  td:first-child, th:first-child {
+    border-left: none;
+  }
+  
+  td:last-child, th:last-child {
+    border-right: none;;
+  }
+/* NÚT */
+
+
+.btn {
+  width: 200px;
+  height: 40px;
+  background: #000000;
+  border: 0px;
+  position: relative;
+  box-shadow: 
+    inset -4px 2px 1px 1px rgb(74, 68, 68),
+    inset -4px -2px 1px 1px lightgray,
+    inset 4px 0px 1px 1px lightgray;   
+}
+
+.btn:hover {
+  cursor: pointer;
+	background-color: #0f0873;
+  color: #0000;
+}
+
+.btn:active {
+  top: 5px;
+  box-shadow: 
+    -4px 2px 1px 1px grey,
+    -4px -2px 1px 1px lightgray,
+    4px 0px 1px 1px lightgray; 
+}
+
+.btn::after {
+  content: '';
+  background: black;
+  position: absolute;
+  left: -2.5%;
+  top: 0;
+  width: 105%;
+  height: 100%;
+  z-index: -1;
+}
+
+.btn::before {
+  content: '';
+  background: rgb(0, 0, 0);
+  position: absolute;
+  left: 0;
+  top: -5%;
+  width: 100%;
+  height: 113%;
+  z-index: -1;
+}
+
+.product-cardi{
+  width: 400px;
+  height: 600px;
+  position: relative;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
+}
+
+.product-cardi:hover .default-img {
+  display: none;
+}
+
+.product-cardi:hover .hover-img {
+  display: block;
+}
+.product-cardi:hover .product-name{
+  display: block;
+}
+
+.product-cardi img {
+  width: 100%;
+  height: 600px;
+  top: 0;
+  left: 0;
+border-radius:15px;
+}
+
+.product-cardi .default-img {
+  z-index: 1;
+}
+
+.product-cardi .hover-img {
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.product-cardi:hover .hover-img {
+  opacity: 1;
+}
