@@ -1,0 +1,108 @@
+$(function() {
+    $("#dialog").dialog({
+      autoOpen: false,
+      width: 800,
+height: 710
+    });
+
+    $("#item1").on("click", function() {
+      $("#dialog").dialog("open");
+    });
+  });
+
+  $(function() {
+    $("#dialog2").dialog({
+      autoOpen: false,
+      width: 800,
+height: 700
+    });
+
+    $("#item2").on("click", function() {
+      $("#dialog2").dialog("open");
+    });
+  });
+
+  $(function() {
+    $("#dialog3").dialog({
+      autoOpen: false,
+      width: 800,
+height: 700
+    });
+
+    $("#item3").on("click", function() {
+      $("#dialog3").dialog("open");
+    });
+  });
+  // ###### DIALOG
+      // image slider
+      const images = [
+      "https://static.wixstatic.com/media/12abaf_48a2883b6ef746e788dc5ad11954a4e9~mv2.jpg",
+      "https://static.wixstatic.com/media/12abaf_0bf4aa77e00145989821f7a350d107fc~mv2.jpg"
+    ];
+    var currentImg = 0;
+    var imgDuration = 3000; // duration in milliseconds
+    setInterval(function() {
+      currentImg = (currentImg + 1) % images.length;
+      $("#img-slider").attr("src", images[currentImg]);
+    }, imgDuration);
+
+  // ##### SIZE 
+$(function() {
+    $("#size-guide-table").dialog({
+      autoOpen: false,
+      width: 380,
+height: 220
+    });
+
+    $("#size-guide-link").on("click", function() {
+      $("#size-guide-table").dialog("open");
+    });
+  })
+  // $
+  const images2 = [
+    "https://static.wixstatic.com/media/12abaf_ec268ca554074842bbb85952eceebae6~mv2.jpg",
+    "https://static.wixstatic.com/media/12abaf_962c426b1001493a99e229615f356245~mv2.jpg"
+  ];
+  var currentImg = 0;
+  var imgDuration = 3000; // duration in milliseconds
+  setInterval(function() {
+    currentImg = (currentImg + 1) % images2.length;
+    $("#img-slider2").attr("src", images2[currentImg]);
+  }, imgDuration);
+// ##### SIZE 
+$(function() {
+  $("#size-guide-table2").dialog({
+    autoOpen: false,
+    width: 380,
+height: 220
+  });
+
+  $("#size-guide-link2").on("click", function() {
+    $("#size-guide-table2").dialog("open");
+  });
+})
+// $
+const images3 = [
+  "https://static.wixstatic.com/media/12abaf_085eb7b12db348129b63c30ee2dba828~mv2.jpg",
+  "https://static.wixstatic.com/media/12abaf_d6ab1b9474ca459696f6ac5b6b68d3c8~mv2.jpg",
+  "https://static.wixstatic.com/media/12abaf_5d0e9fbc29c54962b70bfa9ce865c235~mv2.jpg"
+];
+var currentImg = 0;
+var imgDuration = 3000; // duration in milliseconds
+setInterval(function() {
+  currentImg = (currentImg + 1) % images3.length;
+  $("#img-slider3").attr("src", images3[currentImg]);
+}, imgDuration);
+
+// ##### SIZE 
+$(function() {
+$("#size-guide-table3").dialog({
+  autoOpen: false,
+  width: 380,
+height: 220
+});
+
+$("#size-guide-link3").on("click", function() {
+  $("#size-guide-table3").dialog("open");
+});
+})
