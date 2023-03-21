@@ -736,6 +736,20 @@ ul .header-nav {
       position:relative;
 	z-index:1000;
       }
+.popup{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    border-radius: 8px;
+font-size: 12px;
+    font-family: "Poppins",'Courier';
+    display: none; 
+	z-index: 100;
+    text-align: center;
+}
 h1 {
   font-size: 36px;
 }
