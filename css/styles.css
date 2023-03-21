@@ -156,7 +156,7 @@ align=items: center;
 
 .popup{
     background-color: #ffffff;
-    width: 420px;
+    width: 480px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -171,7 +171,7 @@ font-family: Courier;
 }
 .popup button{
     display: block;
-    margin:  0 0 20px auto;
+    margin:  0 0 30px auto;
     background-color: transparent;
     font-size: 30px;
     color: #ffffff;
