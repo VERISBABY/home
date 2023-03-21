@@ -161,13 +161,15 @@ align=items: center;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-font-family: Courier;
     top: 50%;
     border-radius: 8px;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins",'Courier';
     display: none; 
 	z-index: 100;
     text-align: center;
+}
+.popup ul{
+font-family: Courier;
 }
 .popup button{
     display: block;
@@ -175,7 +177,7 @@ font-family: Courier;
     background-color: transparent;
     font-size: 30px;
     color: #ffffff;
-		background: 'black';
+		background: #000000;
 		border-radius: 100%;
 		width: 40px;
 		height: 30px;
