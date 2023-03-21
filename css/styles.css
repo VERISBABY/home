@@ -169,11 +169,11 @@ align=items: center;
     text-align: center;
 }
 .popup ul{
-font-family: Courier;
+font-family: 'Courier';
 }
 .popup button{
     display: block;
-    margin:  0 0 30px auto;
+    margin:  0 0 22px auto;
     background-color: transparent;
     font-size: 30px;
     color: #ffffff;
