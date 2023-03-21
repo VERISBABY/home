@@ -738,7 +738,7 @@ ul .header-nav {
       }
 .popup{
     background-color: #ffffff;
-    width: 100%;
+    width: 80%;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
