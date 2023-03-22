@@ -724,7 +724,7 @@ div #veris{
   #product-galleryi {
   position: relative;
 display: grid;
-grid-template-columns: repeat(auto-fit,mimax(290px,2fr));
+grid-template-columns: repeat(auto-fit,mimax(300px,1fr));
 grid-gap:20px;
 padding:10px
   }
