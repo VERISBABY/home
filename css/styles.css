@@ -861,8 +861,7 @@ display: block;
     .header-nav-list {
       display: none;
 position: absolute;
-	    left:4rem;
-	    width:unset;
+	    left:9rem;
     background-color: #C5A2E6;
     z-index: 100;
     }
