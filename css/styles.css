@@ -856,10 +856,11 @@ margin-top: 10px;
 	}
 	    .icon {
 display: block;
-position:relative;
+/* position:relative; */
     }
     .header-nav-list {
       display: none;
+position: absolute;
     background-color: #C5A2E6;
     z-index: 100;
     }
