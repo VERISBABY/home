@@ -220,7 +220,7 @@ align-items: center;
 
 .btnn {
 font-weight:bold;
-  width: 120px;
+  width: 140px;
 	float:center;
   height: 45px;
   background: #F4A63A;
@@ -233,7 +233,7 @@ font-weight:bold;
 .btnn:active {
   top: 2px;
 }
-/* .btnn::after {
+.btnn::after {
   content: '';
    background: #000;
   position: absolute;
@@ -255,7 +255,7 @@ font-weight:bold;
   width: 20%;
   height: 30%;
   z-index: -2
-} */
+}
 
 .ml7 {
 	position: relative;
