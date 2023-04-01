@@ -233,7 +233,7 @@ font-weight:bold;
 .btnn:active {
   top: 2px;
 }
-.btnn::after {
+/* .btnn::after {
   content: '';
    background: #000;
   position: absolute;
@@ -242,7 +242,7 @@ font-weight:bold;
   width: 104%;
   height: 100%;
   z-index: -1
-}
+} */
 
 /* .btnn::before {
   content: '';
