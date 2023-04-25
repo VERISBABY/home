@@ -94,11 +94,11 @@
 .product-cardi{
   width: 400px;
   height: 600px;
-  position: relative;
+/*   position: relative; */
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: flex-end; */
-  /* align-items: center; */
+  align-items: center;
 }
 
 .product-cardi:hover .default-img {
