@@ -136,9 +136,10 @@ border-radius:15px;
 }
 /*  #############################################################################*/
 @media screen and (max-width:750px){
-.product-cardi{
+div.product-cardi{
   width: 450px;
 height: 360px;
+position: relative;
 }
 .product-cardi img {
 width: 100%;
