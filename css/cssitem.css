@@ -95,7 +95,7 @@
   width: 400px;
   height: 600px;
 /* 	relative */
-  position: absolute;
+  position: relative;
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: flex-end; */
@@ -133,4 +133,13 @@ border-radius:15px;
 
 .product-cardi:hover .hover-img {
   opacity: 1;
+}
+/*  #############################################################################*/
+@media screen and (max-width:750px){
+.product-cardi{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  align-items: center;
+}
 }
