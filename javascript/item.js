@@ -33,18 +33,18 @@ height: 700
       $("#dialog3").dialog("open");
     });
   });
+
   $(function() {
     $("#dialog4").dialog({
       autoOpen: false,
       width: 800,
-height: 700
+height: 690
     });
 
     $("#item4").on("click", function() {
       $("#dialog4").dialog("open");
     });
   });
-
   // ###### DIALOG Image slider
       const images = [
       "https://static.wixstatic.com/media/12abaf_48a2883b6ef746e788dc5ad11954a4e9~mv2.jpg",
@@ -122,17 +122,17 @@ $("#size-guide-link3").on("click", function() {
     "https://static.wixstatic.com/media/12abaf_e88a232d8e274e5bb7f45bab65a84333~mv2.jpg",
     "https://static.wixstatic.com/media/12abaf_f6eafef928b647a291c49db3eb40c880~mv2.jpg"
   ];
-  var currentImg = 0;
+  var currentImgg = 0;
   var imgDuration = 3000; // duration in milliseconds
   setInterval(function() {
-    currentImg = (currentImg + 1) % images4.length;
-    $("#img-slider4").attr("src", images4[currentImg]);
+    currentImgg = (currentImgg + 1) % images4.length;
+    $("#img-slider4").attr("src", images4[currentImgg]);
   }, imgDuration);
 // ##### SIZE 
 $(function() {
   $("#size-guide-table4").dialog({
     autoOpen: false,
-    width: 400,
+    width: 410,
 height: 240
   });
 
