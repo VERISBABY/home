@@ -107,8 +107,9 @@ left: -45px;
 #product-galleryi {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 8px;
   justify-content: center;
+margin-bottom: 20px;
 }
 #til1{
   float: right;
