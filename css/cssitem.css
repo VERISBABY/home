@@ -138,10 +138,11 @@ border-radius:15px;
 @media screen and (max-width:750px){
 .product-cardi{
   width: 100%;
+height: 380px;
 position: relative;
-  align-items: center;
 }
 .product-cardi img {
+width: 100%;
   height: 300px;
 }
 }
