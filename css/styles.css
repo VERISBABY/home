@@ -104,11 +104,11 @@ left: -45px;
   gap: 10px;
   justify-content: center;
 }
+
 #product-galleryi {
   display: grid;
-row-gap: 50px;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  gap: 50px;
   justify-content: center;
 	
 }
