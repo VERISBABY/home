@@ -33,8 +33,19 @@ height: 700
       $("#dialog3").dialog("open");
     });
   });
-  // ###### DIALOG
-      // image slider
+  $(function() {
+    $("#dialog4").dialog({
+      autoOpen: false,
+      width: 800,
+height: 700
+    });
+
+    $("#item4").on("click", function() {
+      $("#dialog4").dialog("open");
+    });
+  });
+
+  // ###### DIALOG Image slider
       const images = [
       "https://static.wixstatic.com/media/12abaf_48a2883b6ef746e788dc5ad11954a4e9~mv2.jpg",
       "https://static.wixstatic.com/media/12abaf_0bf4aa77e00145989821f7a350d107fc~mv2.jpg"
@@ -105,4 +116,27 @@ height: 220
 $("#size-guide-link3").on("click", function() {
   $("#size-guide-table3").dialog("open");
 });
+})
+// $
+  const images4 = [
+    "https://static.wixstatic.com/media/12abaf_e88a232d8e274e5bb7f45bab65a84333~mv2.jpg",
+    "https://static.wixstatic.com/media/12abaf_f6eafef928b647a291c49db3eb40c880~mv2.jpg"
+  ];
+  var currentImg = 0;
+  var imgDuration = 3000; // duration in milliseconds
+  setInterval(function() {
+    currentImg = (currentImg + 1) % images2.length;
+    $("#img-slider4").attr("src", images2[currentImg]);
+  }, imgDuration);
+// ##### SIZE 
+$(function() {
+  $("#size-guide-table4").dialog({
+    autoOpen: false,
+    width: 380,
+height: 220
+  });
+
+  $("#size-guide-link4").on("click", function() {
+    $("#size-guide-table4").dialog("open");
+  });
 })
