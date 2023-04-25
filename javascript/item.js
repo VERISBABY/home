@@ -125,15 +125,15 @@ $("#size-guide-link3").on("click", function() {
   var currentImg = 0;
   var imgDuration = 3000; // duration in milliseconds
   setInterval(function() {
-    currentImg = (currentImg + 1) % images2.length;
-    $("#img-slider4").attr("src", images2[currentImg]);
+    currentImg = (currentImg + 1) % images4.length;
+    $("#img-slider4").attr("src", images4[currentImg]);
   }, imgDuration);
 // ##### SIZE 
 $(function() {
   $("#size-guide-table4").dialog({
     autoOpen: false,
-    width: 380,
-height: 220
+    width: 400,
+height: 240
   });
 
   $("#size-guide-link4").on("click", function() {
