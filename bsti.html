@@ -49,7 +49,14 @@
         <p class="product-name2">Veil Cygnus Jacket</p>
         </a>
     </div>
-
+      <div class="product-cardi">
+        <a id="item4">
+        <img class="default-img" src="https://static.wixstatic.com/media/12abaf_66b2cf1c4f8d49099b8b7773d3e49794~mv2.jpg" alt="ZODIACUS THENHAN REBORN #1 COLLECTION | Look 3">
+        <img class="hover-img" src="https://static.wixstatic.com/media/12abaf_8ee47696491647c3ac79b3b52d35611c~mv2.png" alt="ZODIACUS THENHAN Cyrion's Redwine Skirt">
+        <p class="product-name2">Cyrion's Redwine Skirt</p>
+        </a>
+    </div>
+	    
   </div>
     <button id="back-to-top-btn">
       <i class="fas fa-arrow-up"></i>
@@ -256,6 +263,74 @@
     </div>
   </div>
 </div>
+<!--  -->
+<div id="dialog3" title="Cyrion's Redwine Skirt">
+  <div style="display: flex;">
+    <div style="margin-right: 8px; width: 300px;">
+     <p style="font-size: medium;">Cyrion's Redwine Skirt with thick redwine velvet x white fur lace x florals, white bead buttons embodies Zodiacus Thenhan's playful spirit, luxurious and classic sound.
+
+      <pre style="color: brown;">Limited Edition</pre></p>
+      <p style="color: red;">$250**</p>
+
+        <ul style="font-size: small; font-family: 'Courier New', Courier, monospace;">
+	  <li>Redwine thick velvet.</li>
+	  <li>Elastic waistband.</li>
+	  <li>Fixed buttons•2 colorful flowers, 1 white bead.</li>
+	  <li>White lace feathers.</li>
+	  <li>Lining•watermelon red.</li>
+	  <li>Relaxed fit.</li>
+	  <li>Made in Vung Tau.</li>
+	  <li>The model is 162 cm tall and wearing size S.</li>
+         </ul>
+          <pre style="color: brown;">**Suggested retail price.</pre>
+        
+      <div>
+        <pre><u id="size-guide-link4">Size guide</u></pre>
+      </div>
+      
+      <div id="size-guide-table4" title="Size Guide">
+        <table>
+          <strong>HIP: FREE.</strong>
+          <thead>
+            <tr>
+              <th>ZT' Size</th>
+              <th>EU Size</th>
+              <th>UK Size</th>
+              <th>Waist (cm/in)</th>
+	      <th>Hip(cm/in)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>S</td>
+              <td>36</td>
+              <td>8</td>
+              <td>56 ~ 64/22 ~ 25.2</td>
+		<td>88/34.6</td>
+
+            </tr>
+            <tr>
+              <td>M</td>
+              <td>42</td>
+              <td>14</td>
+              <td>66 ~ 72/26 ~ 28.3</td>
+		<td>102/40.2</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+      
+      <div class="container">
+        <button id="diaa4" class="btn" style="color: rgb(235, 181, 225);  font-family: 'Press Start 2P';   font-size: 10px;">Contact </button>
+      </div>
+    </div>
+    <div style="max-width: 250px;">
+      <img id="img-slider4" src="https://static.wixstatic.com/media/12abaf_ec268ca554074842bbb85952eceebae6~mv2.jpg" alt="Image" width="450" height="646">
+    </div>
+  </div>
+</div>
+<!-- 	 -->
 <div id="dialogc" title="cONTACT TO ORDER">
   <p><a href="mailto:zodiacusthenhan.contact@gmail.com">gMAIL: zodiacusthenhan.contact@gmail.com</a></p>
 	  <p><a href="mailto:zodiacusthenhan.contact@gmail.com">iN Viet Nam: you can call <code>0392199484</code></a></p>
@@ -265,6 +340,7 @@
 <footer class="footer-nav">	 
 		<p id="year"></p>
 </footer>
+
 <<script>         
 $( "#dialogc" ).dialog({
 	autoOpen: false,
@@ -309,6 +385,19 @@ $( "#diaa3" ).click(function( event ) {
 	event.preventDefault();
 });
 $( "#diaa3, .ui-corner-alll" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
+
+$( "#diaa4" ).click(function( event ) {
+	$( "#dialogc" ).dialog( "open" );
+	event.preventDefault();
+});
+$( "#diaa4, .ui-corner-alll" ).hover(
 	function() {
 		$( this ).addClass( "ui-state-hover" );
 	},
