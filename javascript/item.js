@@ -33,7 +33,7 @@ height: 700
       $("#dialog3").dialog("open");
     });
   });
-
+// 
   $(function() {
     $("#dialog4").dialog({
       autoOpen: false,
@@ -43,6 +43,18 @@ height: 690
 
     $("#item4").on("click", function() {
       $("#dialog4").dialog("open");
+    });
+  });
+// 
+  $(function() {
+    $("#dialog5").dialog({
+      autoOpen: false,
+      width: 800,
+height: 690
+    });
+
+    $("#item5").on("click", function() {
+      $("#dialog5").dialog("open");
     });
   });
   // ###### DIALOG Image slider
@@ -138,5 +150,29 @@ height: 240
 
   $("#size-guide-link4").on("click", function() {
     $("#size-guide-table4").dialog("open");
+  });
+})
+// $
+  const images5 = [
+    "https://static.wixstatic.com/media/12abaf_1a045b59427f426c99546e42af18381d~mv2.jpg",
+    "https://static.wixstatic.com/media/12abaf_64a8c7707ace4564ab91faa31c268399~mv2.jpg",
+    "https://static.wixstatic.com/media/12abaf_beeb6b38e8934afba267f56a4db78b7a~mv2.jpg"
+  ];
+  var currentImgg = 0;
+  var imgDuration = 3000; // duration in milliseconds
+  setInterval(function() {
+    currentImgg = (currentImgg + 1) % images5.length;
+    $("#img-slider5").attr("src", images4[currentImgg]);
+  }, imgDuration);
+// ##### SIZE 
+$(function() {
+  $("#size-guide-table5").dialog({
+    autoOpen: false,
+    width: 410,
+height: 240
+  });
+
+  $("#size-guide-link5").on("click", function() {
+    $("#size-guide-table5").dialog("open");
   });
 })
