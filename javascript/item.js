@@ -162,7 +162,7 @@ var currentImg = 0;
 var imgDuration = 3000; // duration in milliseconds
 setInterval(function() {
   currentImg = (currentImg + 1) % images5.length;
-  $("#img-slider3").attr("src", images5[currentImg]);
+  $("#img-slider5").attr("src", images5[currentImg]);
 }, imgDuration);
 
 // ##### SIZE 
