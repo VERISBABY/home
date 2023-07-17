@@ -153,26 +153,27 @@ height: 240
   });
 })
 // $
-  const images5 = [
+const images5 = [
     "https://static.wixstatic.com/media/12abaf_1a045b59427f426c99546e42af18381d~mv2.jpg",
     "https://static.wixstatic.com/media/12abaf_64a8c7707ace4564ab91faa31c268399~mv2.jpg",
     "https://static.wixstatic.com/media/12abaf_beeb6b38e8934afba267f56a4db78b7a~mv2.jpg"
-  ];
-  var currentImgg = 0;
-  var imgDuration = 3000; // duration in milliseconds
-  setInterval(function() {
-    currentImgg = (currentImgg + 1) % images5.length;
-    $("#img-slider5").attr("src", images4[currentImgg]);
-  }, imgDuration);
+];
+var currentImg = 0;
+var imgDuration = 3000; // duration in milliseconds
+setInterval(function() {
+  currentImg = (currentImg + 1) % images5.length;
+  $("#img-slider3").attr("src", images5[currentImg]);
+}, imgDuration);
+
 // ##### SIZE 
 $(function() {
-  $("#size-guide-table5").dialog({
-    autoOpen: false,
-    width: 410,
-height: 240
-  });
+$("#size-guide-table5").dialog({
+  autoOpen: false,
+  width: 380,
+height: 220
+});
 
-  $("#size-guide-link5").on("click", function() {
-    $("#size-guide-table5").dialog("open");
-  });
+$("#size-guide-link5").on("click", function() {
+  $("#size-guide-table5").dialog("open");
+});
 })
