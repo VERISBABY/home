@@ -722,6 +722,30 @@ div #veris{
     transform: translateY(0);
   }
 }
+        /* Define a container for each section */
+        .product-section {
+          display: flex;
+          margin-bottom: 20px;
+          padding-top: 15px; /* Add padding to the top */
+      }
+
+      /* Style the text area on the left */
+      .product-text {
+          flex: 1;
+          padding: 20px;
+          background-color: #f2f2f2;
+      }
+
+      /* Style the GIF image on the right */
+      .product-image {
+          flex: 1;
+          text-align: center;
+      }
+
+      .product-image img {
+          max-width: 100%;
+          height: auto;
+      }
 /* SAO NỀN */
 /*   #product-galleryi {
   position: relative;
@@ -1002,4 +1026,4 @@ width: 770px;
     font-weight: bold;
     float: right;
   }
-
+}
