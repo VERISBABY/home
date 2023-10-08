@@ -765,6 +765,11 @@ ul .header-nav {
       position:relative;
 	z-index:1000;
       }
+	        .product-section {
+          display: block;
+          margin-bottom: 10px;
+          padding-top: 10px; /* Add padding to the top */
+      }
 .popup{
     background-color: #ffffff;
     width: 90%;
